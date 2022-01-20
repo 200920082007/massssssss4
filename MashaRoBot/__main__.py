@@ -399,8 +399,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" нι ι αм ѕιиgєℓ ϐυτ мγ ѕουяϲє ιѕ ρяινατє.ϐєϲαυѕє ϲοργϲατѕ."""
-                 
+            text=""" нι ι αм ѕιиgєℓ ϐυτ мγ ѕουяϲє ιѕ ρяινατє.ϐєϲαυѕє ϲοργϲατѕ.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
