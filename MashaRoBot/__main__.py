@@ -82,7 +82,7 @@ buttons = [
         InlineKeyboardButton(text="ᏴϴͲ ႮᏢᎠᎪͲᎬՏ💖", url="t.me/Mksupport1"),
     ],
     [
-        InlineKeyboardButton(text="⚠️ՏϴႮᎡᏟᎬ⚠️🖥️", callback_data="source_")
+        InlineKeyboardButton(text="⚠️ՏϴႮᎡᏟᎬ⚠️🖥️", callback_data="source_"
         ),
     ],
 ]
