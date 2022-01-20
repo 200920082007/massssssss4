@@ -1,4 +1,4 @@
- <h1 align="center"><b>✨Lonely King Bot ✨</b></h1>
+ <h1 align="center"><b>✨SINGLE Bot ✨</b></h1>
 
 <h4 align="center">A Powerful, Smart And Advance Group Manager <br> ... Written with AioGram , Pyrogram and Telethon...</h4>
 <p align='center'>
