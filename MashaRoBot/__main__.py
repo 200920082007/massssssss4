@@ -76,7 +76,8 @@ buttons = [
         InlineKeyboardButton(text="ᏟϴᎷᎷᎪΝᎠՏ❔", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="ᎠᎬᏙᎬᏞϴᏢᎬᎡ 🧑‍💻", url="https://t.me/TheTelegrampro"),
+        InlineKeyboardButton(text="ᎠᎬᏙᎬᏞϴᏢᎬᎡ 🧑‍💻", url="https://t.me/CRACKERON"),
+
     ],
     [
         InlineKeyboardButton(text="ᏴϴͲ ႮᏢᎠᎪͲᎬՏ💖", url="t.me/Mksupport1"),
@@ -398,8 +399,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Lonely king*
-                 \nMy source code is private  [support](t.me/thanimaisupport) .""",
+            text=""" нι ι αм ѕιиgєℓ ϐυτ мγ ѕουяϲє ιѕ ρяινατє.ϐєϲαυѕє ϲοργϲατѕ."""
+                 
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
