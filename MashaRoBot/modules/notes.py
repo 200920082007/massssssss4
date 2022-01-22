@@ -516,33 +516,33 @@ def __chat_settings__(chat_id, user_id):
 
 
 __help__ = """
- ❍ /get <notename>*:* get the note with this notename
- ❍ #<notename>*:* same as /get
- ❍ /notes or /saved*:* list all saved notes in this chat
- ❍ /number *:* Will pull the note of that number in the list
-If you would like to retrieve the contents of a note without any formatting, use `/get <notename> noformat`. This can \
-be useful when updating a current note
+ ❍ /get <ɴᴏᴛᴇɴᴀᴍᴇ>*:* ɢᴇᴛ ᴛʜᴇ ɴᴏᴛᴇ ᴡɪᴛʜ ᴛʜɪs ɴᴏᴛᴇɴᴀᴍᴇ
+ ❍ #<ɴᴏᴛᴇɴᴀᴍᴇ>*:* sᴀᴍᴇ ᴀs /get
+ ❍ /notes ᴏʀ /saved*:* ʟɪsᴛ ᴀʟʟ sᴀᴠᴇᴅ ɴᴏᴛᴇs ɪɴ ᴛʜɪs ᴄʜᴀᴛ
+ ❍ /number *:* Wɪʟʟ ᴘᴜʟʟ ᴛʜᴇ ɴᴏᴛᴇ ᴏғ ᴛʜᴀᴛ ɴᴜᴍʙᴇʀ ɪɴ ᴛʜᴇ ʟɪsᴛ
+Iғ ʏᴏᴜ ᴡᴏᴜʟᴅ ʟɪᴋᴇ ᴛᴏ ʀᴇᴛʀɪᴇᴠᴇ ᴛʜᴇ ᴄᴏɴᴛᴇɴᴛs ᴏғ ᴀ ɴᴏᴛᴇ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ғᴏʀᴍᴀᴛᴛɪɴɢ, ᴜsᴇ `/ɢᴇᴛ <ɴᴏᴛᴇɴᴀᴍᴇ> ɴᴏғᴏʀᴍᴀᴛ`. Tʜɪs ᴄᴀɴ \
+ʙᴇ ᴜsᴇғᴜʟ ᴡʜᴇɴ ᴜᴘᴅᴀᴛɪɴɢ ᴀ ᴄᴜʀʀᴇɴᴛ ɴᴏᴛᴇ
 
-*Admins only:*
- ❍ /save <notename> <notedata>*:* saves notedata as a note with name notename
-A button can be added to a note by using standard markdown link syntax - the link should just be prepended with a \
-`buttonurl:` section, as such: `[somelink](buttonurl:example.com)`. Check `/markdownhelp` for more info
- ❍ /save <notename>*:* save the replied message as a note with name notename
- Separate diff replies by `%%%` to get random notes
- *Example:* 
- `/save notename
- Reply 1
+*Aᴅᴍɪɴs ᴏɴʟʏ:*
+ ❍ /save <ɴᴏᴛᴇɴᴀᴍᴇ> <ɴᴏᴛᴇᴅᴀᴛᴀ>*:* sᴀᴠᴇs ɴᴏᴛᴇᴅᴀᴛᴀ ᴀs ᴀ ɴᴏᴛᴇ ᴡɪᴛʜ ɴᴀᴍᴇ ɴᴏᴛᴇɴᴀᴍᴇ
+A ʙᴜᴛᴛᴏɴ ᴄᴀɴ ʙᴇ ᴀᴅᴅᴇᴅ ᴛᴏ ᴀ ɴᴏᴛᴇ ʙʏ ᴜsɪɴɢ sᴛᴀɴᴅᴀʀᴅ ᴍᴀʀᴋᴅᴏᴡɴ ʟɪɴᴋ sʏɴᴛᴀx - ᴛʜᴇ ʟɪɴᴋ sʜᴏᴜʟᴅ ᴊᴜsᴛ ʙᴇ ᴘʀᴇᴘᴇɴᴅᴇᴅ ᴡɪᴛʜ ᴀ \
+`ʙᴜᴛᴛᴏɴᴜʀʟ:` sᴇᴄᴛɪᴏɴ, ᴀs sᴜᴄʜ: `[sᴏᴍᴇʟɪɴᴋ](ʙᴜᴛᴛᴏɴᴜʀʟ:ᴇxᴀᴍᴘʟᴇ.ᴄᴏᴍ)`. Cʜᴇᴄᴋ `/markdownhelp` ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏ
+ ❍ /save <ɴᴏᴛᴇɴᴀᴍᴇ>*:* sᴀᴠᴇ ᴛʜᴇ ʀᴇᴘʟɪᴇᴅ ᴍᴇssᴀɢᴇ ᴀs ᴀ ɴᴏᴛᴇ ᴡɪᴛʜ ɴᴀᴍᴇ ɴᴏᴛᴇɴᴀᴍᴇ
+ Sᴇᴘᴀʀᴀᴛᴇ ᴅɪғғ ʀᴇᴘʟɪᴇs ʙʏ `%%%` ᴛᴏ ɢᴇᴛ ʀᴀɴᴅᴏᴍ ɴᴏᴛᴇs
+ *Exᴀᴍᴘʟᴇ:* 
+ `/sᴀᴠᴇ ɴᴏᴛᴇɴᴀᴍᴇ
+ Rᴇᴘʟʏ 1
  %%%
- Reply 2
+ Rᴇᴘʟʏ 2
  %%%
- Reply 3`
- ❍ /clear <notename>*:* clear note with this name
- ❍ /removeallnotes*:* removes all notes from the group
- *Note:* Note names are case-insensitive, and they are automatically converted to lowercase before getting saved.
+ Rᴇᴘʟʏ 3`
+ ❍ /clear <ɴᴏᴛᴇɴᴀᴍᴇ>*:* ᴄʟᴇᴀʀ ɴᴏᴛᴇ ᴡɪᴛʜ ᴛʜɪs ɴᴀᴍᴇ
+ ❍ /removeallnotes *:* ʀᴇᴍᴏᴠᴇs ᴀʟʟ ɴᴏᴛᴇs ғʀᴏᴍ ᴛʜᴇ ɢʀᴏᴜᴘ
+ *Nᴏᴛᴇ:* Nᴏᴛᴇ ɴᴀᴍᴇs ᴀʀᴇ ᴄᴀsᴇ-ɪɴsᴇɴsɪᴛɪᴠᴇ, ᴀɴᴅ ᴛʜᴇʏ ᴀʀᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴄᴏɴᴠᴇʀᴛᴇᴅ ᴛᴏ ʟᴏᴡᴇʀᴄᴀsᴇ ʙᴇғᴏʀᴇ ɢᴇᴛᴛɪɴɢ sᴀᴠᴇᴅ.
 
 """
 
-__mod_name__ = "ɴᴏᴛᴇs📜"
+__mod_name__ = "ΝϴͲᎬՏ📜"
 
 GET_HANDLER = CommandHandler("get", cmd_get)
 HASH_GET_HANDLER = MessageHandler(Filters.regex(r"^#[^\s]+"), hash_get)
