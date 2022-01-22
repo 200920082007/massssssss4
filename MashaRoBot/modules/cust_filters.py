@@ -614,32 +614,32 @@ def __chat_settings__(chat_id, user_id):
 
 
 __help__ = """
- ❍ /filters*:* List all active filters saved in the chat.
+ ❍ /filters*:* Lɪsᴛ ᴀʟʟ ᴀᴄᴛɪᴠᴇ ғɪʟᴛᴇʀs sᴀᴠᴇᴅ ɪɴ ᴛʜᴇ ᴄʜᴀᴛ.
 
-*Admin only:*
- ❍ /filter <keyword> <reply message>*:* Add a filter to this chat. The bot will now reply that message whenever 'keyword'\
-is mentioned. If you reply to a sticker with a keyword, the bot will reply with that sticker. NOTE: all filter \
-keywords are in lowercase. If you want your keyword to be a sentence, use quotes. eg: /filter "hey there" How you \
-doin?
- Separate diff replies by `%%%` to get random replies
- *Example:* 
- `/filter "filtername"
- Reply 1
+*Aᴅᴍɪɴ ᴏɴʟʏ:*
+ ❍ /filter <ᴋᴇʏᴡᴏʀᴅ> <ʀᴇᴘʟʏ ᴍᴇssᴀɢᴇ>*:* Aᴅᴅ ᴀ ғɪʟᴛᴇʀ ᴛᴏ ᴛʜɪs ᴄʜᴀᴛ. Tʜᴇ ʙᴏᴛ ᴡɪʟʟ ɴᴏᴡ ʀᴇᴘʟʏ ᴛʜᴀᴛ ᴍᴇssᴀɢᴇ ᴡʜᴇɴᴇᴠᴇʀ 'ᴋᴇʏᴡᴏʀᴅ'\
+ɪs ᴍᴇɴᴛɪᴏɴᴇᴅ. Iғ ʏᴏᴜ ʀᴇᴘʟʏ ᴛᴏ ᴀ sᴛɪᴄᴋᴇʀ ᴡɪᴛʜ ᴀ ᴋᴇʏᴡᴏʀᴅ, ᴛʜᴇ ʙᴏᴛ ᴡɪʟʟ ʀᴇᴘʟʏ ᴡɪᴛʜ ᴛʜᴀᴛ sᴛɪᴄᴋᴇʀ. NOTE: ᴀʟʟ ғɪʟᴛᴇʀ \
+ᴋᴇʏᴡᴏʀᴅs ᴀʀᴇ ɪɴ ʟᴏᴡᴇʀᴄᴀsᴇ. Iғ ʏᴏᴜ ᴡᴀɴᴛ ʏᴏᴜʀ ᴋᴇʏᴡᴏʀᴅ ᴛᴏ ʙᴇ ᴀ sᴇɴᴛᴇɴᴄᴇ, ᴜsᴇ ϙᴜᴏᴛᴇs. ᴇɢ: /ғɪʟᴛᴇʀ "ʜᴇʏ ᴛʜᴇʀᴇ" Hᴏᴡ ʏᴏᴜ \
+ᴅᴏɪɴ?
+ Sᴇᴘᴀʀᴀᴛᴇ ᴅɪғғ ʀᴇᴘʟɪᴇs ʙʏ `%%%` ᴛᴏ ɢᴇᴛ ʀᴀɴᴅᴏᴍ ʀᴇᴘʟɪᴇs
+ *Exᴀᴍᴘʟᴇ:* 
+ `/ғɪʟᴛᴇʀ "ғɪʟᴛᴇʀɴᴀᴍᴇ"
+ Rᴇᴘʟʏ 1
  %%%
- Reply 2
+ Rᴇᴘʟʏ 2
  %%%
- Reply 3`
- ❍ /stop <filter keyword>*:* Stop that filter.
+ Rᴇᴘʟʏ 3`
+ ❍ /stop <ғɪʟᴛᴇʀ ᴋᴇʏᴡᴏʀᴅ>*:* Sᴛᴏᴘ ᴛʜᴀᴛ ғɪʟᴛᴇʀ.
 
-*Chat creator only:*
- ❍ /removeallfilters*:* Remove all chat filters at once.
+*Cʜᴀᴛ ᴄʀᴇᴀᴛᴏʀ ᴏɴʟʏ:*
+ ❍ /removeallfilters*:* Rᴇᴍᴏᴠᴇ ᴀʟʟ ᴄʜᴀᴛ ғɪʟᴛᴇʀs ᴀᴛ ᴏɴᴄᴇ.
 
-*Note*: Filters also support markdown formatters like: {first}, {last} etc.. and buttons.
-Check ❍ /markdownhelp to know more!
+*Nᴏᴛᴇ*: Fɪʟᴛᴇʀs ᴀʟsᴏ sᴜᴘᴘᴏʀᴛ ᴍᴀʀᴋᴅᴏᴡɴ ғᴏʀᴍᴀᴛᴛᴇʀs ʟɪᴋᴇ: {ғɪʀsᴛ}, {ʟᴀsᴛ} ᴇᴛᴄ.. ᴀɴᴅ ʙᴜᴛᴛᴏɴs.
+Cʜᴇᴄᴋ ❍ /ᴍᴀʀᴋᴅᴏᴡɴʜᴇʟᴘ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ!
 
 """
 
-__mod_name__ = "ғɪʟᴛᴇʀ🤡"
+__mod_name__ = "ҒᏆᏞͲᎬᎡ📱📲"
 
 FILTER_HANDLER = CommandHandler("filter", filters)
 STOP_HANDLER = CommandHandler("stop", stop_filter)
