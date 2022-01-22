@@ -43,9 +43,9 @@ Description: {description}"""
     await message.reply_photo(photo=poke_img, caption=caption)
 
 
-__mod_name__ = "ᴘᴏᴋᴇᴅᴇx🔵"
+__mod_name__ = "ᏢϴᏦᎬᎷϴΝ 🦕"
 
 __help__ = """
-/pokedex Pokemon Name 📛
+/pokedex Pᴏᴋᴇᴍᴏɴ Nᴀᴍᴇ 🦫
 """
 
