@@ -82,20 +82,20 @@ def markdown_help(update: Update, context: CallbackContext):
 
 
 __help__ = """
-*Available commands:*
-*Markdown:*
- ❍ /markdownhelp*:* quick summary of how markdown works in telegram - can only be called in private chats
-*Paste:*
- ❍ /paste*:* Saves replied content to `nekobin.com` and replies with a url
-*React:*
- ❍ /react*:* Reacts with a random reaction 
-*Urban Dictonary:*
- ❍ /ud <word>*:* Type the word or expression you want to search use
-*Wikipedia:*
- ❍ /wiki <query>*:* wikipedia your query
-*Wallpapers:*
- ❍ /wall <query>*:* get a wallpaper from wall.alphacoders.com
-*Currency converter:* 
+*Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:*
+*Mᴀʀᴋᴅᴏᴡɴ:*
+ ❍ /markdownhelp*:* ϙᴜɪᴄᴋ sᴜᴍᴍᴀʀʏ ᴏғ ʜᴏᴡ ᴍᴀʀᴋᴅᴏᴡɴ ᴡᴏʀᴋs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ - ᴄᴀɴ ᴏɴʟʏ ʙᴇ ᴄᴀʟʟᴇᴅ ɪɴ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛs
+*Pᴀsᴛᴇ:*
+ ❍ /paste*:* Sᴀᴠᴇs ʀᴇᴘʟɪᴇᴅ ᴄᴏɴᴛᴇɴᴛ ᴛᴏ `ɴᴇᴋᴏʙɪɴ.ᴄᴏᴍ` ᴀɴᴅ ʀᴇᴘʟɪᴇs ᴡɪᴛʜ ᴀ ᴜʀʟ
+*Rᴇᴀᴄᴛ:*
+ ❍ /react*:* Rᴇᴀᴄᴛs ᴡɪᴛʜ ᴀ ʀᴀɴᴅᴏᴍ ʀᴇᴀᴄᴛɪᴏɴ 
+*Uʀʙᴀɴ Dɪᴄᴛᴏɴᴀʀʏ:*
+ ❍ /ud <ᴡᴏʀᴅ>*:* Tʏᴘᴇ ᴛʜᴇ ᴡᴏʀᴅ ᴏʀ ᴇxᴘʀᴇssɪᴏɴ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ sᴇᴀʀᴄʜ ᴜsᴇ
+*Wɪᴋɪᴘᴇᴅɪᴀ:*
+ ❍ /wiki <ϙᴜᴇʀʏ>*:* ᴡɪᴋɪᴘᴇᴅɪᴀ ʏᴏᴜʀ ϙᴜᴇʀʏ
+*Wᴀʟʟᴘᴀᴘᴇʀs:*
+ ❍ /wall <ϙᴜᴇʀʏ>*:* ɢᴇᴛ ᴀ ᴡᴀʟʟᴘᴀᴘᴇʀ ғʀᴏᴍ ᴡᴀʟʟ.ᴀʟᴘʜᴀᴄᴏᴅᴇʀs.ᴄᴏᴍ
+*Cᴜʀʀᴇɴᴄʏ ᴄᴏɴᴠᴇʀᴛᴇʀ:* 
 
 
  
@@ -111,7 +111,7 @@ MD_HELP_HANDLER = CommandHandler("markdownhelp", markdown_help)
 dispatcher.add_handler(ECHO_HANDLER)
 dispatcher.add_handler(MD_HELP_HANDLER)
 
-__mod_name__ = "ᴇxᴛʀᴀ👻"
+__mod_name__ = "Ꭼ-ᏆͲᎬᎷ🪁"
 __command_list__ = ["id", "echo"]
 __handlers__ = [
     ECHO_HANDLER,
