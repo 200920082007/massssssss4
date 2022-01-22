@@ -567,25 +567,25 @@ You're in the right place!
 The locks module allows you to lock away some common items in the \
 telegram world; the bot will automatically delete them!
 
- ❍ /locktypes*:* Lists all possible locktypes
+ ❍ /locktypes*:* Lɪsᴛs ᴀʟʟ ᴘᴏssɪʙʟᴇ ʟᴏᴄᴋᴛʏᴘᴇs
  
-*Admins only:*
- ❍ /lock <type>*:* Lock items of a certain type (not available in private)
- ❍ /unlock <type>*:* Unlock items of a certain type (not available in private)
- ❍ /locks*:* The current list of locks in this chat.
+*Aᴅᴍɪɴs ᴏɴʟʏ:*
+ ❍ /lock <ᴛʏᴘᴇ>*:* Lᴏᴄᴋ ɪᴛᴇᴍs ᴏғ ᴀ ᴄᴇʀᴛᴀɪɴ ᴛʏᴘᴇ (ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴘʀɪᴠᴀᴛᴇ)
+ ❍ /unlock <ᴛʏᴘᴇ>*:* Uɴʟᴏᴄᴋ ɪᴛᴇᴍs ᴏғ ᴀ ᴄᴇʀᴛᴀɪɴ ᴛʏᴘᴇ (ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴘʀɪᴠᴀᴛᴇ)
+ ❍ /locks*:* Tʜᴇ ᴄᴜʀʀᴇɴᴛ ʟɪsᴛ ᴏғ ʟᴏᴄᴋs ɪɴ ᴛʜɪs ᴄʜᴀᴛ.
  
-Locks can be used to restrict a group's users.
-eg:
-Locking urls will auto-delete all messages with urls, locking stickers will restrict all \
-non-admin users from sending stickers, etc.
-Locking bots will stop non-admins from adding bots to the chat.
+Lᴏᴄᴋs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴛᴏ ʀᴇsᴛʀɪᴄᴛ ᴀ ɢʀᴏᴜᴘ's ᴜsᴇʀs.
+ᴇɢ:
+Lᴏᴄᴋɪɴɢ ᴜʀʟs ᴡɪʟʟ ᴀᴜᴛᴏ-ᴅᴇʟᴇᴛᴇ ᴀʟʟ ᴍᴇssᴀɢᴇs ᴡɪᴛʜ ᴜʀʟs, ʟᴏᴄᴋɪɴɢ sᴛɪᴄᴋᴇʀs ᴡɪʟʟ ʀᴇsᴛʀɪᴄᴛ ᴀʟʟ \
+ɴᴏɴ-ᴀᴅᴍɪɴ ᴜsᴇʀs ғʀᴏᴍ sᴇɴᴅɪɴɢ sᴛɪᴄᴋᴇʀs, ᴇᴛᴄ.
+Lᴏᴄᴋɪɴɢ ʙᴏᴛs ᴡɪʟʟ sᴛᴏᴘ ɴᴏɴ-ᴀᴅᴍɪɴs ғʀᴏᴍ ᴀᴅᴅɪɴɢ ʙᴏᴛs ᴛᴏ ᴛʜᴇ ᴄʜᴀᴛ.
 
-*Note:*
- • Unlocking permission *info* will allow members (non-admins) to change the group information, such as the description or the group name
- • Unlocking permission *pin* will allow members (non-admins) to pinned a message in a group
+*Nᴏᴛᴇ:*
+ • Uɴʟᴏᴄᴋɪɴɢ ᴘᴇʀᴍɪssɪᴏɴ *ɪɴғᴏ* ᴡɪʟʟ ᴀʟʟᴏᴡ ᴍᴇᴍʙᴇʀs (ɴᴏɴ-ᴀᴅᴍɪɴs) ᴛᴏ ᴄʜᴀɴɢᴇ ᴛʜᴇ ɢʀᴏᴜᴘ ɪɴғᴏʀᴍᴀᴛɪᴏɴ, sᴜᴄʜ ᴀs ᴛʜᴇ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴏʀ ᴛʜᴇ ɢʀᴏᴜᴘ ɴᴀᴍᴇ
+ • Uɴʟᴏᴄᴋɪɴɢ ᴘᴇʀᴍɪssɪᴏɴ *ᴘɪɴ* ᴡɪʟʟ ᴀʟʟᴏᴡ ᴍᴇᴍʙᴇʀs (ɴᴏɴ-ᴀᴅᴍɪɴs) ᴛᴏ ᴘɪɴɴᴇᴅ ᴀ ᴍᴇssᴀɢᴇ ɪɴ ᴀ ɢʀᴏᴜᴘ
 """
 
-__mod_name__ = "ʟᴏᴄᴋ🔐"
+__mod_name__ = "ᏞϴᏟᏦ🔐"
 
 LOCKTYPES_HANDLER = DisableAbleCommandHandler("locktypes", locktypes)
 LOCK_HANDLER = CommandHandler("lock", lock, pass_args=True)  # , filters=Filters.group)
