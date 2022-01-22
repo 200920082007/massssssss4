@@ -93,10 +93,10 @@ async def _(event):
 
 
 __help__ = """
-I can convert text to voice and voice to text..
+I ᴄᴀɴ ᴄᴏɴᴠᴇʀᴛ ᴛᴇxᴛ ᴛᴏ ᴠᴏɪᴄᴇ ᴀɴᴅ ᴠᴏɪᴄᴇ ᴛᴏ ᴛᴇxᴛ..
 
- ❍ /tts <lang code>*:* Reply to any message to get text to speech output
- ❍ /stt*:* Type in reply to a voice message(support english only) to extract text from it.
+ ❍ /tts <ʟᴀɴɢ ᴄᴏᴅᴇ>*:* Rᴇᴘʟʏ ᴛᴏ ᴀɴʏ ᴍᴇssᴀɢᴇ ᴛᴏ ɢᴇᴛ ᴛᴇxᴛ ᴛᴏ sᴘᴇᴇᴄʜ ᴏᴜᴛᴘᴜᴛ
+ ❍ /stt*:* Tʏᴘᴇ ɪɴ ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴠᴏɪᴄᴇ ᴍᴇssᴀɢᴇ(sᴜᴘᴘᴏʀᴛ ᴇɴɢʟɪsʜ ᴏɴʟʏ) ᴛᴏ ᴇxᴛʀᴀᴄᴛ ᴛᴇxᴛ ғʀᴏᴍ ɪᴛ.
 
 *Language Codes*
 `af,am,ar,az,be,bg,bn,bs,ca,ceb,co,cs,cy,da,de,el,en,eo,es,
@@ -107,4 +107,4 @@ sm,sn,so,sq,sr,st,su,sv,sw,ta,te,tg,th,tl,tr,uk,ur,uz,
 vi,xh,yi,yo,zh,zh_CN,zh_TW,zu`
 """
 
-__mod_name__ = "ᴛᴛs/sᴛᴛ🕵️"
+__mod_name__ = "ͲͲՏ/ՏͲͲ🗣️"
