@@ -118,14 +118,14 @@ def __chat_settings__(chat_id, user_id):
 
 
 __help__ = """
- ❍ /rules*:* get the rules for this chat.
+ ❍ /rules*:* ɢᴇᴛ ᴛʜᴇ ʀᴜʟᴇs ғᴏʀ ᴛʜɪs ᴄʜᴀᴛ.
 
-*Admins only:*
- ❍ /setrules <your rules here>*:* set the rules for this chat.
- ❍ /clearrules*:* clear the rules for this chat.
+*Aᴅᴍɪɴs ᴏɴʟʏ:*
+ ❍ /setrules <ʏᴏᴜʀ ʀᴜʟᴇs ʜᴇʀᴇ>*:* sᴇᴛ ᴛʜᴇ ʀᴜʟᴇs ғᴏʀ ᴛʜɪs ᴄʜᴀᴛ.
+ ❍ /clearrules*:* ᴄʟᴇᴀʀ ᴛʜᴇ ʀᴜʟᴇs ғᴏʀ ᴛʜɪs ᴄʜᴀᴛ.
 """
 
-__mod_name__ = "ʀᴜʟᴇ📝"
+__mod_name__ = "ᎡႮᏞᎬ📝"
 
 GET_RULES_HANDLER = CommandHandler("rules", get_rules, filters=Filters.group)
 SET_RULES_HANDLER = CommandHandler("setrules", set_rules, filters=Filters.group)
