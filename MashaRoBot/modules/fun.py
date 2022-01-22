@@ -400,47 +400,47 @@ def weebify(update: Update, context: CallbackContext):
 
 __help__ = """
 
- • `/runs`*:* reply a random string from an array of replies
+ • `/runs `*:* ʀᴇᴘʟʏ ᴀ ʀᴀɴᴅᴏᴍ sᴛʀɪɴɢ ғʀᴏᴍ ᴀɴ ᴀʀʀᴀʏ ᴏғ ʀᴇᴘʟɪᴇs
 
- • `/slap`*:* slap a user, or get slapped if not a reply
+ • `/slap `*:* sʟᴀᴘ ᴀ ᴜsᴇʀ, ᴏʀ ɢᴇᴛ sʟᴀᴘᴘᴇᴅ ɪғ ɴᴏᴛ ᴀ ʀᴇᴘʟʏ
 
- • `/shrug`*:* get shrug XD
+ • `/shrug `*:* ɢᴇᴛ sʜʀᴜɢ XD
 
- • `/table`*:* get flip/unflip :v
+ • `/table `*:* ɢᴇᴛ ғʟɪᴘ/ᴜɴғʟɪᴘ :ᴠ
 
- • `/decide`*:* Randomly answers yes/no/maybe
+ • `/decide `*:* Rᴀɴᴅᴏᴍʟʏ ᴀɴsᴡᴇʀs ʏᴇs/ɴᴏ/ᴍᴀʏʙᴇ
 
- • `/toss`*:* Tosses A coin
+ • `/toss `*:* Tᴏssᴇs A ᴄᴏɪɴ
 
- • `/bluetext`*:* check urself :V
+ • `/bluetext *:* ᴄʜᴇᴄᴋ ᴜʀsᴇʟғ :V
 
- • `/roll`*:* Roll a dice
+ • `/roll `*:* Rᴏʟʟ ᴀ ᴅɪᴄᴇ
 
- • `/rlg`*:* Join ears,nose,mouth and create an emo ;-;
+ • `/rlg `*:* Jᴏɪɴ ᴇᴀʀs,ɴᴏsᴇ,ᴍᴏᴜᴛʜ ᴀɴᴅ ᴄʀᴇᴀᴛᴇ ᴀɴ ᴇᴍᴏ ;-;
 
- • `/shout <keyword>`*:* write anything you want to give loud shout
+ • `/shout <ᴋᴇʏᴡᴏʀᴅ>`*:* ᴡʀɪᴛᴇ ᴀɴʏᴛʜɪɴɢ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢɪᴠᴇ ʟᴏᴜᴅ sʜᴏᴜᴛ
 
- • `/weebify <text>`*:* returns a weebified text
+ • `/weebify <ᴛᴇxᴛ>`*:* ʀᴇᴛᴜʀɴs ᴀ ᴡᴇᴇʙɪғɪᴇᴅ ᴛᴇxᴛ
 
- • `/truth `*:* for random truth
+ • `/truth `*:* ғᴏʀ ʀᴀɴᴅᴏᴍ ᴛʀᴜᴛʜ
 
- • `/dare `*:* for random dare
+ • `/dare `*:* ғᴏʀ ʀᴀɴᴅᴏᴍ ᴅᴀʀᴇ
 
- • `/sanitize`*:* always use this before /pat or any contact
+ • `/sanitize`*:* ᴀʟᴡᴀʏs ᴜsᴇ ᴛʜɪs ʙᴇғᴏʀᴇ /ᴘᴀᴛ ᴏʀ ᴀɴʏ ᴄᴏɴᴛᴀᴄᴛ
 
- • `/pat`*:* pats a user, or get patted
+ • `/pat `*:* ᴘᴀᴛs ᴀ ᴜsᴇʀ, ᴏʀ ɢᴇᴛ ᴘᴀᴛᴛᴇᴅ
 
- • `/fun`*:* funny text,stricker and gif send
+ • `/fun `*:* ғᴜɴɴʏ ᴛᴇxᴛ,sᴛʀɪᴄᴋᴇʀ ᴀɴᴅ ɢɪғ sᴇɴᴅ
 
- • `/aq`*:* get random anime quote
+ • `/aq`*:* ɢᴇᴛ ʀᴀɴᴅᴏᴍ ᴀɴɪᴍᴇ ϙᴜᴏᴛᴇ
 
- • `/lyrics <song name> `*:* text to voice
+ • `/lyrics <sᴏɴɢ ɴᴀᴍᴇ> `*:* ᴛᴇxᴛ ᴛᴏ ᴠᴏɪᴄᴇ
 
- • `/plet <text> `*:* text get funny emojify
+ • `/plet <ᴛᴇxᴛ> `*:* ᴛᴇxᴛ ɢᴇᴛ ғᴜɴɴʏ ᴇᴍᴏᴊɪғʏ
 
- • `/tts <text> `*:* text to voice
+ • `/tts <ᴛᴇxᴛ> `*:* ᴛᴇxᴛ ᴛᴏ ᴠᴏɪᴄᴇ
 
- • `/8ball`*:* predicts using 8ball method
+ • `/8ball `*:* ᴘʀᴇᴅɪᴄᴛs ᴜsɪɴɢ 8ʙᴀʟʟ ᴍᴇᴛʜᴏᴅ
 
 """
 
@@ -500,7 +500,7 @@ dispatcher.add_handler(TABLE_HANDLER)
 
 dispatcher.add_handler(WEEBIFY_HANDLER)
 
-__mod_name__ = "Fᴜɴ🤣"
+__mod_name__ = "ҒႮΝ😂"
 
 __command_list__ = [
 
