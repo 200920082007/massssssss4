@@ -91,10 +91,10 @@ def totranslate(update: Update, context: CallbackContext):
 
 
 __help__ = """
- ❍ /tr or /tl (language code) as reply to a long message
-*Example:* 
- ❍ /tr en*:* translates something to english
- ❍ /tr hi-en*:* translates hindi to english
+ ❍ /tr ᴏʀ /tl (ʟᴀɴɢᴜᴀɢᴇ ᴄᴏᴅᴇ) ᴀs ʀᴇᴘʟʏ ᴛᴏ ᴀ ʟᴏɴɢ ᴍᴇssᴀɢᴇ
+*Exᴀᴍᴘʟᴇ:* 
+ ❍ /tr ᴇɴ*:* ᴛʀᴀɴsʟᴀᴛᴇs sᴏᴍᴇᴛʜɪɴɢ ᴛᴏ ᴇɴɢʟɪsʜ
+ ❍ /tr ʜɪ-ᴇɴ*:* ᴛʀᴀɴsʟᴀᴛᴇs ʜɪɴᴅɪ ᴛᴏ ᴇɴɢʟɪsʜ
 
 *Language Codes*
 `af,am,ar,az,be,bg,bn,bs,ca,ceb,co,cs,cy,da,de,el,en,eo,es,
@@ -109,6 +109,6 @@ TRANSLATE_HANDLER = DisableAbleCommandHandler(["tr", "tl"], totranslate)
 
 dispatcher.add_handler(TRANSLATE_HANDLER)
 
-__mod_name__ = "G-Tʀᴀɴs🌐"
+__mod_name__ = "Ꮐ-ͲᎡᎪΝՏ🗣️"
 __command_list__ = ["tr", "tl"]
 __handlers__ = [TRANSLATE_HANDLER]
