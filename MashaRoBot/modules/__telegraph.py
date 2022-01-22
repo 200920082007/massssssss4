@@ -80,9 +80,9 @@ def resize_image(image):
 
 
 __help__ = """
-I can upload files to Telegraph
- ❍ /tm :Get Telegraph Link Of Replied Media
- ❍ /txt :Get Telegraph Link of Replied Text
+I ᴄᴀɴ ᴜᴘʟᴏᴀᴅ ғɪʟᴇs ᴛᴏ Tᴇʟᴇɢʀᴀᴘʜ🙋
+ ❍ /tm :Gᴇᴛ Tᴇʟᴇɢʀᴀᴘʜ Lɪɴᴋ Oғ Rᴇᴘʟɪᴇᴅ Mᴇᴅɪᴀ
+ ❍ /txt :Gᴇᴛ Tᴇʟᴇɢʀᴀᴘʜ Lɪɴᴋ ᴏғ Rᴇᴘʟɪᴇᴅ Tᴇxᴛ
 """
 
-__mod_name__ = "T-Gʀᴀᴘʜ✨"
+__mod_name__ = "Ͳ-ᏀᎡᎪᏢᎻ📇"
