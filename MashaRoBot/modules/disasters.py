@@ -552,100 +552,100 @@ def devlist(update: Update, context: CallbackContext):
 
 __help__ = f"""
 *⚠️ Notice:*
-Commands listed here only work for users with special access are mainly used for troubleshooting, debugging purposes.
-Group admins/group owners do not need these commands. 
+Cᴏᴍᴍᴀɴᴅs ʟɪsᴛᴇᴅ ʜᴇʀᴇ ᴏɴʟʏ ᴡᴏʀᴋ ғᴏʀ ᴜsᴇʀs ᴡɪᴛʜ sᴘᴇᴄɪᴀʟ ᴀᴄᴄᴇss ᴀʀᴇ ᴍᴀɪɴʟʏ ᴜsᴇᴅ ғᴏʀ ᴛʀᴏᴜʙʟᴇsʜᴏᴏᴛɪɴɢ, ᴅᴇʙᴜɢɢɪɴɢ ᴘᴜʀᴘᴏsᴇs.
+Gʀᴏᴜᴘ ᴀᴅᴍɪɴs/ɢʀᴏᴜᴘ ᴏᴡɴᴇʀs ᴅᴏ ɴᴏᴛ ɴᴇᴇᴅ ᴛʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs. 
 
-*List all special users:*
- ❍ /dragons*:* Lists all Dragon disasters
- ❍ /demons*:* Lists all Demon disasters
- ❍ /tigers*:* Lists all Tigers disasters
- ❍ /wolves*:* Lists all Wolf disasters
- ❍ /heroes*:* Lists all Hero Association members
- ❍ /adddragon*:* Adds a user to Dragon
- ❍ /adddemon*:* Adds a user to Demon
- ❍ /addtiger*:* Adds a user to Tiger
- ❍ /addwolf*:* Adds a user to Wolf
- ❍ `Add dev doesnt exist, devs should know how to add themselves`
+*Lɪsᴛ ᴀʟʟ sᴘᴇᴄɪᴀʟ ᴜsᴇʀs:*
+ ❍ /dragons*:* Lɪsᴛs ᴀʟʟ Dʀᴀɢᴏɴ ᴅɪsᴀsᴛᴇʀs
+ ❍ /demons*:* Lɪsᴛs ᴀʟʟ Dᴇᴍᴏɴ ᴅɪsᴀsᴛᴇʀs
+ ❍ /tigers*:* Lɪsᴛs ᴀʟʟ Tɪɢᴇʀs ᴅɪsᴀsᴛᴇʀs
+ ❍ /wolves*:* Lɪsᴛs ᴀʟʟ Wᴏʟғ ᴅɪsᴀsᴛᴇʀs
+ ❍ /heroes*:* Lɪsᴛs ᴀʟʟ Hᴇʀᴏ Assᴏᴄɪᴀᴛɪᴏɴ ᴍᴇᴍʙᴇʀs
+ ❍ /adddragon*:* Aᴅᴅs ᴀ ᴜsᴇʀ ᴛᴏ Dʀᴀɢᴏɴ
+ ❍ /adddemon*:* Aᴅᴅs ᴀ ᴜsᴇʀ ᴛᴏ Dᴇᴍᴏɴ
+ ❍ /addtiger*:* Aᴅᴅs ᴀ ᴜsᴇʀ ᴛᴏ Tɪɢᴇʀ
+ ❍ /addwolf*:* Aᴅᴅs ᴀ ᴜsᴇʀ ᴛᴏ Wᴏʟғ
+ ❍ `Aᴅᴅ ᴅᴇᴠ ᴅᴏᴇsɴᴛ ᴇxɪsᴛ, ᴅᴇᴠs sʜᴏᴜʟᴅ ᴋɴᴏᴡ ʜᴏᴡ ᴛᴏ ᴀᴅᴅ ᴛʜᴇᴍsᴇʟᴠᴇs`
 
-*Ping:*
- ❍ /ping*:* gets ping time of bot to telegram server
- ❍ /pingall*:* gets all listed ping times
+*Pɪɴɢ:*
+ ❍ /ping*:* ɢᴇᴛs ᴘɪɴɢ ᴛɪᴍᴇ ᴏғ ʙᴏᴛ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ sᴇʀᴠᴇʀ
+ ❍ /pingall*:* ɢᴇᴛs ᴀʟʟ ʟɪsᴛᴇᴅ ᴘɪɴɢ ᴛɪᴍᴇs
 
-*Broadcast: (Bot owner only)*
-*Note:* This supports basic markdown
- ❍ /broadcastall*:* Broadcasts everywhere
- ❍ /broadcastusers*:* Broadcasts too all users
- ❍ /broadcastgroups*:* Broadcasts too all groups
+*Bʀᴏᴀᴅᴄᴀsᴛ: (Bᴏᴛ ᴏᴡɴᴇʀ ᴏɴʟʏ)*
+*Nᴏᴛᴇ:* Tʜɪs sᴜᴘᴘᴏʀᴛs ʙᴀsɪᴄ ᴍᴀʀᴋᴅᴏᴡɴ
+ ❍ /broadcastall*:* Bʀᴏᴀᴅᴄᴀsᴛs ᴇᴠᴇʀʏᴡʜᴇʀᴇ
+ ❍ /broadcastusers*:* Bʀᴏᴀᴅᴄᴀsᴛs ᴛᴏᴏ ᴀʟʟ ᴜsᴇʀs
+ ❍ /broadcastgroups*:* Bʀᴏᴀᴅᴄᴀsᴛs ᴛᴏᴏ ᴀʟʟ ɢʀᴏᴜᴘs
 
-*Groups Info:*
- ❍ /groups*:* List the groups with Name, ID, members count as a txt
- ❍ /leave <ID>*:* Leave the group, ID must have hyphen
- ❍ /stats*:* Shows overall bot stats
- ❍ /getchats*:* Gets a list of group names the user has been seen in. Bot owner only
- ❍ /ginfo username/link/ID*:* Pulls info panel for entire group
+*Gʀᴏᴜᴘs Iɴғᴏ:*
+ ❍ /groups*:* Lɪsᴛ ᴛʜᴇ ɢʀᴏᴜᴘs ᴡɪᴛʜ Nᴀᴍᴇ, ID, ᴍᴇᴍʙᴇʀs ᴄᴏᴜɴᴛ ᴀs ᴀ ᴛxᴛ
+ ❍ /leave <ID>*:* Lᴇᴀᴠᴇ ᴛʜᴇ ɢʀᴏᴜᴘ, ID ᴍᴜsᴛ ʜᴀᴠᴇ ʜʏᴘʜᴇɴ
+ ❍ /stats*:* Sʜᴏᴡs ᴏᴠᴇʀᴀʟʟ ʙᴏᴛ sᴛᴀᴛs
+ ❍ /getchats*:* Gᴇᴛs ᴀ ʟɪsᴛ ᴏғ ɢʀᴏᴜᴘ ɴᴀᴍᴇs ᴛʜᴇ ᴜsᴇʀ ʜᴀs ʙᴇᴇɴ sᴇᴇɴ ɪɴ. Bᴏᴛ ᴏᴡɴᴇʀ ᴏɴʟʏ
+ ❍ /ginfo ᴜsᴇʀɴᴀᴍᴇ/ʟɪɴᴋ/ID*:* Pᴜʟʟs ɪɴғᴏ ᴘᴀɴᴇʟ ғᴏʀ ᴇɴᴛɪʀᴇ ɢʀᴏᴜᴘ
 
-*Access control:* 
- ❍ /ignore*:* Blacklists a user from using the bot entirely
- ❍ /lockdown <off/on>*:* Toggles bot adding to groups
- ❍ /notice*:* Removes user from blacklist
- ❍ /ignoredlist*:* Lists ignored users
+*Aᴄᴄᴇss ᴄᴏɴᴛʀᴏʟ:* 
+ ❍ /ignore*:* Bʟᴀᴄᴋʟɪsᴛs ᴀ ᴜsᴇʀ ғʀᴏᴍ ᴜsɪɴɢ ᴛʜᴇ ʙᴏᴛ ᴇɴᴛɪʀᴇʟʏ
+ ❍ /lockdown <ᴏғғ/ᴏɴ>*:* Tᴏɢɢʟᴇs ʙᴏᴛ ᴀᴅᴅɪɴɢ ᴛᴏ ɢʀᴏᴜᴘs
+ ❍ /notice*:* Rᴇᴍᴏᴠᴇs ᴜsᴇʀ ғʀᴏᴍ ʙʟᴀᴄᴋʟɪsᴛ
+ ❍ /ignoredlist*:* Lɪsᴛs ɪɢɴᴏʀᴇᴅ ᴜsᴇʀs
 
-*Speedtest:*
- ❍ /speedtest*:* Runs a speedtest and gives you 2 options to choose from, text or image output
+*Sᴘᴇᴇᴅᴛᴇsᴛ:*
+ ❍ /speedtest*:* Rᴜɴs ᴀ sᴘᴇᴇᴅᴛᴇsᴛ ᴀɴᴅ ɢɪᴠᴇs ʏᴏᴜ 2 ᴏᴘᴛɪᴏɴs ᴛᴏ ᴄʜᴏᴏsᴇ ғʀᴏᴍ, ᴛᴇxᴛ ᴏʀ ɪᴍᴀɢᴇ ᴏᴜᴛᴘᴜᴛ
 
-*Module loading:*
- ❍ /listmodules*:* Lists names of all modules
- ❍ /load modulename*:* Loads the said module to memory without restarting.
- ❍ /unload modulename*:* Loads the said module frommemory without restarting memory without restarting the bot 
+*Mᴏᴅᴜʟᴇ ʟᴏᴀᴅɪɴɢ:*
+ ❍ /listmodules*:* Lɪsᴛs ɴᴀᴍᴇs ᴏғ ᴀʟʟ ᴍᴏᴅᴜʟᴇs
+ ❍ /loadmodulename*:* Lᴏᴀᴅs ᴛʜᴇ sᴀɪᴅ ᴍᴏᴅᴜʟᴇ ᴛᴏ ᴍᴇᴍᴏʀʏ ᴡɪᴛʜᴏᴜᴛ ʀᴇsᴛᴀʀᴛɪɴɢ.
+ ❍ /unloadmodulename*:* Lᴏᴀᴅs ᴛʜᴇ sᴀɪᴅ ᴍᴏᴅᴜʟᴇ ғʀᴏᴍᴍᴇᴍᴏʀʏ ᴡɪᴛʜᴏᴜᴛ ʀᴇsᴛᴀʀᴛɪɴɢ ᴍᴇᴍᴏʀʏ ᴡɪᴛʜᴏᴜᴛ ʀᴇsᴛᴀʀᴛɪɴɢ ᴛʜᴇ ʙᴏᴛ 
 
-*Remote commands:*
- ❍ /rban*:* user group*:* Remote ban
- ❍ /runban*:* user group*:* Remote un-ban
- ❍ /rpunch*:* user group*:* Remote punch
- ❍ /rmute*:* user group*:* Remote mute
- ❍ /runmute*:* user group*:* Remote un-mute
+*Rᴇᴍᴏᴛᴇ ᴄᴏᴍᴍᴀɴᴅs:*
+ ❍ /rban*:* ᴜsᴇʀ ɢʀᴏᴜᴘ*:* Rᴇᴍᴏᴛᴇ ʙᴀɴ
+ ❍ /runban*:* ᴜsᴇʀ ɢʀᴏᴜᴘ*:* Rᴇᴍᴏᴛᴇ ᴜɴ-ʙᴀɴ
+ ❍ /rpunch*:* ᴜsᴇʀ ɢʀᴏᴜᴘ*:* Rᴇᴍᴏᴛᴇ ᴘᴜɴᴄʜ
+ ❍ /rmute*:* ᴜsᴇʀ ɢʀᴏᴜᴘ*:* Rᴇᴍᴏᴛᴇ ᴍᴜᴛᴇ
+ ❍ /runmute*:* ᴜsᴇʀ ɢʀᴏᴜᴘ*:* Rᴇᴍᴏᴛᴇ ᴜɴ-ᴍᴜᴛᴇ
 
-*Windows self hosted only:*
- ❍ /reboot*:* Restarts the bots service
- ❍ /gitpull*:* Pulls the repo and then restarts the bots service
+*Wɪɴᴅᴏᴡs sᴇʟғ ʜᴏsᴛᴇᴅ ᴏɴʟʏ:*
+ ❍ /reboot*:* Rᴇsᴛᴀʀᴛs ᴛʜᴇ ʙᴏᴛs sᴇʀᴠɪᴄᴇ
+ ❍ /gitpull*:* Pᴜʟʟs ᴛʜᴇ ʀᴇᴘᴏ ᴀɴᴅ ᴛʜᴇɴ ʀᴇsᴛᴀʀᴛs ᴛʜᴇ ʙᴏᴛs sᴇʀᴠɪᴄᴇ
 
-*Chatbot:* 
- ❍ /listaichats*:* Lists the chats the chatmode is enabled in
+*Cʜᴀᴛʙᴏᴛ:* 
+ ❍ /listaichats*:* Lɪsᴛs ᴛʜᴇ ᴄʜᴀᴛs ᴛʜᴇ ᴄʜᴀᴛᴍᴏᴅᴇ ɪs ᴇɴᴀʙʟᴇᴅ ɪɴ
  
-*Debugging and Shell:* 
- ❍ /debug <on/off>*:* Logs commands to updates.txt
- ❍ /logs*:* Run this in support group to get logs in pm
- ❍ /eval*:* Self explanatory
- ❍ /sh*:* Runs shell command
- ❍ /shell*:* Runs shell command
- ❍ /clearlocals*:* As the name goes
- ❍ /dbcleanup*:* Removes deleted accs and groups from db
- ❍ /py*:* Runs python code
+*Dᴇʙᴜɢɢɪɴɢ ᴀɴᴅ Sʜᴇʟʟ:* 
+ ❍ /debug <ᴏɴ/ᴏғғ>*:* Lᴏɢs ᴄᴏᴍᴍᴀɴᴅs ᴛᴏ ᴜᴘᴅᴀᴛᴇs.ᴛxᴛ
+ ❍ /logs*:* Rᴜɴ ᴛʜɪs ɪɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴛᴏ ɢᴇᴛ ʟᴏɢs ɪɴ ᴘᴍ
+ ❍ /eval*:* Sᴇʟғ ᴇxᴘʟᴀɴᴀᴛᴏʀʏ
+ ❍ /sh*:* Rᴜɴs sʜᴇʟʟ ᴄᴏᴍᴍᴀɴᴅ
+ ❍ /shell*:* Rᴜɴs sʜᴇʟʟ ᴄᴏᴍᴍᴀɴᴅ
+ ❍ /clearlocals*:* As ᴛʜᴇ ɴᴀᴍᴇ ɢᴏᴇs
+ ❍ /dbcleanup*:* Rᴇᴍᴏᴠᴇs ᴅᴇʟᴇᴛᴇᴅ ᴀᴄᴄs ᴀɴᴅ ɢʀᴏᴜᴘs ғʀᴏᴍ ᴅʙ
+ ❍ /py*:* Rᴜɴs ᴘʏᴛʜᴏɴ ᴄᴏᴅᴇ
  
-*Global Bans:*
- ❍ /gban <id> <reason>*:* Gbans the user, works by reply too
- ❍ /ungban*:* Ungbans the user, same usage as gban
- ❍ /gbanlist*:* Outputs a list of gbanned users
+*Gʟᴏʙᴀʟ Bᴀɴs:*
+ ❍ /gban<ɪᴅ> <ʀᴇᴀsᴏɴ>*:* Gʙᴀɴs ᴛʜᴇ ᴜsᴇʀ, ᴡᴏʀᴋs ʙʏ ʀᴇᴘʟʏ ᴛᴏᴏ
+ ❍ /ungban*:* Uɴɢʙᴀɴs ᴛʜᴇ ᴜsᴇʀ, sᴀᴍᴇ ᴜsᴀɢᴇ ᴀs ɢʙᴀɴ
+ ❍ /gbanlist*:* Oᴜᴛᴘᴜᴛs ᴀ ʟɪsᴛ ᴏғ ɢʙᴀɴɴᴇᴅ ᴜsᴇʀs
 
-*Global Blue Text*
- ❍ /gignoreblue*:* <word>*:* Globally ignorea bluetext cleaning of saved word across MashaRoBot.
- ❍ /ungignoreblue*:* <word>*:* Remove said command from global cleaning list
+*Gʟᴏʙᴀʟ Bʟᴜᴇ Tᴇxᴛ*
+ ❍ /gignoreblue*:* <ᴡᴏʀᴅ>*:* Gʟᴏʙᴀʟʟʏ ɪɢɴᴏʀᴇᴀ ʙʟᴜᴇᴛᴇxᴛ ᴄʟᴇᴀɴɪɴɢ ᴏғ sᴀᴠᴇᴅ ᴡᴏʀᴅ ᴀᴄʀᴏss MᴀsʜᴀRᴏBᴏᴛ.
+ ❍ /ungignoreblue*:* <ᴡᴏʀᴅ>*:* Rᴇᴍᴏᴠᴇ sᴀɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғʀᴏᴍ ɢʟᴏʙᴀʟ ᴄʟᴇᴀɴɪɴɢ ʟɪsᴛ
 
-*Masha Core*
-*Owner only*
- ❍ /send*:* <module name>*:* Send module
- ❍ /install*:* <reply to a .py>*:* Install module 
+*Mᴀsʜᴀ Cᴏʀᴇ*
+*Oᴡɴᴇʀ ᴏɴʟʏ*
+ ❍ /send*:* <ᴍᴏᴅᴜʟᴇ ɴᴀᴍᴇ>*:* Sᴇɴᴅ ᴍᴏᴅᴜʟᴇ
+ ❍ /install*:* <ʀᴇᴘʟʏ ᴛᴏ ᴀ .ᴘʏ>*:* Iɴsᴛᴀʟʟ ᴍᴏᴅᴜʟᴇ 
 
-*Heroku Settings*
-*Owner only*
- ❍ /usage*:* Check your heroku dyno hours remaining.
- ❍ /see var <var>*:* Get your existing varibles, use it only on your private group!
- ❍ /set var <newvar> <vavariable>*:* Add new variable or update existing value variable.
- ❍ /del var <var>*:* Delete existing variable.
- ❍ /logs Get heroku dyno logs.
+*Hᴇʀᴏᴋᴜ Sᴇᴛᴛɪɴɢs*
+*Oᴡɴᴇʀ ᴏɴʟʏ*
+ ❍ /usage*:* Cʜᴇᴄᴋ ʏᴏᴜʀ ʜᴇʀᴏᴋᴜ ᴅʏɴᴏ ʜᴏᴜʀs ʀᴇᴍᴀɪɴɪɴɢ.
+ ❍ /seevar <ᴠᴀʀ>*:* Gᴇᴛ ʏᴏᴜʀ ᴇxɪsᴛɪɴɢ ᴠᴀʀɪʙʟᴇs, ᴜsᴇ ɪᴛ ᴏɴʟʏ ᴏɴ ʏᴏᴜʀ ᴘʀɪᴠᴀᴛᴇ ɢʀᴏᴜᴘ!
+ ❍ /setwar <ɴᴇᴡᴠᴀʀ> <ᴠᴀᴠᴀʀɪᴀʙʟᴇ>*:* Aᴅᴅ ɴᴇᴡ ᴠᴀʀɪᴀʙʟᴇ ᴏʀ ᴜᴘᴅᴀᴛᴇ ᴇxɪsᴛɪɴɢ ᴠᴀʟᴜᴇ ᴠᴀʀɪᴀʙʟᴇ.
+ ❍ /delwar <ᴠᴀʀ>*:* Dᴇʟᴇᴛᴇ ᴇxɪsᴛɪɴɢ ᴠᴀʀɪᴀʙʟᴇ.
+ ❍ /logs Gᴇᴛ ʜᴇʀᴏᴋᴜ ᴅʏɴᴏ ʟᴏɢs.
 
-`⚠️ Read from top`
-Visit *@thanimaisupport* for more information.
+`⚠️ Rᴇᴀᴅ ғʀᴏᴍ ᴛᴏᴘ`
+Vɪsɪᴛ *@Mksupport1* ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.
 """
 
 SUDO_HANDLER = CommandHandler(("addsudo", "adddragon"), addsudo)
@@ -678,7 +678,7 @@ dispatcher.add_handler(SUPPORTLIST_HANDLER)
 dispatcher.add_handler(SUDOLIST_HANDLER)
 dispatcher.add_handler(DEVLIST_HANDLER)
 
-__mod_name__ = "ᴅᴇᴠ🦁"
+__mod_name__ = "Ꮇ-ᎬХͲᎡᎪ🛷"
 __handlers__ = [
     SUDO_HANDLER,
     SUPPORT_HANDLER,
