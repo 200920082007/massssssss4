@@ -508,22 +508,22 @@ def selfunban(context: CallbackContext, update: Update) -> str:
 
         
 __help__ = """
- • `/punchme`*:* punches the user who issued the command.
- • `/kickme`*:* kicks the user who issued the command.
+ • `/punchme`*:* ᴘᴜɴᴄʜᴇs ᴛʜᴇ ᴜsᴇʀ ᴡʜᴏ ɪssᴜᴇᴅ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ.
+ • `/kickme`*:* ᴋɪᴄᴋs ᴛʜᴇ ᴜsᴇʀ ᴡʜᴏ ɪssᴜᴇᴅ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ.
 
 
-*Muting a user commands:*
- • `/mute <userhandle>`*:* silences a user. Can also be used as a reply, muting the replied to user.
- • `/tmute <userhandle> x(m/h/d)`*:* mutes a user for x time. (via handle, or reply). `m` = `minutes`, `h` = `hours`, `d` = `days`.
- • `/unmute <userhandle>`*:* unmutes a user. Can also be used as a reply, muting the replied to user.
+*Mᴜᴛɪɴɢ ᴀ ᴜsᴇʀ ᴄᴏᴍᴍᴀɴᴅs:*
+ • `/mute <ᴜsᴇʀʜᴀɴᴅʟᴇ>`*:* sɪʟᴇɴᴄᴇs ᴀ ᴜsᴇʀ. Cᴀɴ ᴀʟsᴏ ʙᴇ ᴜsᴇᴅ ᴀs ᴀ ʀᴇᴘʟʏ, ᴍᴜᴛɪɴɢ ᴛʜᴇ ʀᴇᴘʟɪᴇᴅ ᴛᴏ ᴜsᴇʀ.
+ • `/tmute <ᴜsᴇʀʜᴀɴᴅʟᴇ> x(ᴍ/ʜ/ᴅ)`*:* ᴍᴜᴛᴇs ᴀ ᴜsᴇʀ ғᴏʀ x ᴛɪᴍᴇ. (ᴠɪᴀ ʜᴀɴᴅʟᴇ, ᴏʀ ʀᴇᴘʟʏ). `ᴍ` = `ᴍɪɴᴜᴛᴇs`, `ʜ` = `ʜᴏᴜʀs`, `ᴅ` = `ᴅᴀʏs`.
+ • `/unmute <ᴜsᴇʀʜᴀɴᴅʟᴇ>`*:* ᴜɴᴍᴜᴛᴇs ᴀ ᴜsᴇʀ. Cᴀɴ ᴀʟsᴏ ʙᴇ ᴜsᴇᴅ ᴀs ᴀ ʀᴇᴘʟʏ, ᴍᴜᴛɪɴɢ ᴛʜᴇ ʀᴇᴘʟɪᴇᴅ ᴛᴏ ᴜsᴇʀ.
  
-*ban a user commands:*
- • `/ban <userhandle>`*:* bans a user. (via handle, or reply)
- • `/sban <userhandle>`*:* Silently ban a user. Deletes command, Replied message and doesn't reply. (via handle, or reply)
- • `/tban <userhandle> x(m/h/d)`*:* bans a user for `x` time. (via handle, or reply). `m` = `minutes`, `h` = `hours`, `d` = `days`.
- • `/unban <userhandle>`*:* unbans a user. (via handle, or reply)
- • `/kick <userhandle>`*:* Kicks a user out of the group, (via handle, or reply)
- • `/punch <userhandle>`*:* Punches a user out of the group, (via handle, or reply)
+*ʙᴀɴ ᴀ ᴜsᴇʀ ᴄᴏᴍᴍᴀɴᴅs:*
+ • `/ban <ᴜsᴇʀʜᴀɴᴅʟᴇ>`*:* ʙᴀɴs ᴀ ᴜsᴇʀ. (ᴠɪᴀ ʜᴀɴᴅʟᴇ, ᴏʀ ʀᴇᴘʟʏ)
+ • `/sban <ᴜsᴇʀʜᴀɴᴅʟᴇ>`*:* Sɪʟᴇɴᴛʟʏ ʙᴀɴ ᴀ ᴜsᴇʀ. Dᴇʟᴇᴛᴇs ᴄᴏᴍᴍᴀɴᴅ, Rᴇᴘʟɪᴇᴅ ᴍᴇssᴀɢᴇ ᴀɴᴅ ᴅᴏᴇsɴ'ᴛ ʀᴇᴘʟʏ. (ᴠɪᴀ ʜᴀɴᴅʟᴇ, ᴏʀ ʀᴇᴘʟʏ)
+ • `/tban <ᴜsᴇʀʜᴀɴᴅʟᴇ> x(ᴍ/ʜ/ᴅ)`*:* ʙᴀɴs ᴀ ᴜsᴇʀ ғᴏʀ `x` ᴛɪᴍᴇ. (ᴠɪᴀ ʜᴀɴᴅʟᴇ, ᴏʀ ʀᴇᴘʟʏ). `ᴍ` = `ᴍɪɴᴜᴛᴇs`, `ʜ` = `ʜᴏᴜʀs`, `ᴅ` = `ᴅᴀʏs`.
+ • `/unban <ᴜsᴇʀʜᴀɴᴅʟᴇ>`*:* ᴜɴʙᴀɴs ᴀ ᴜsᴇʀ. (ᴠɪᴀ ʜᴀɴᴅʟᴇ, ᴏʀ ʀᴇᴘʟʏ)
+ • `/kick <ᴜsᴇʀʜᴀɴᴅʟᴇ>`*:* Kɪᴄᴋs ᴀ ᴜsᴇʀ ᴏᴜᴛ ᴏғ ᴛʜᴇ ɢʀᴏᴜᴘ, (ᴠɪᴀ ʜᴀɴᴅʟᴇ, ᴏʀ ʀᴇᴘʟʏ)
+ • `/punch <ᴜsᴇʀʜᴀɴᴅʟᴇ>`*:* Pᴜɴᴄʜᴇs ᴀ ᴜsᴇʀ ᴏᴜᴛ ᴏғ ᴛʜᴇ ɢʀᴏᴜᴘ, (ᴠɪᴀ ʜᴀɴᴅʟᴇ, ᴏʀ ʀᴇᴘʟʏ)
 """
 
 BAN_HANDLER = CommandHandler(["ban", "sban"], ban)
@@ -545,7 +545,7 @@ dispatcher.add_handler(UNBAN_HANDLER)
 dispatcher.add_handler(ROAR_HANDLER)
 dispatcher.add_handler(PUNCHME_HANDLER)
 
-__mod_name__ = "ʙᴀɴ/ᴍᴜᴛᴇs💖"
+__mod_name__ = "ᏴᎪΝ/ᎷႮͲᎬ🔕"
 __handlers__ = [
     BAN_HANDLER,
 
