@@ -187,15 +187,15 @@ __help__ = """
 
 *Setup*
 *Only creator*
-❍ Add me in your group as admin
-❍ Add me in your channel as admin 
- 
+❍ Aᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀs ᴀᴅᴍɪɴ
+❍ Aᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴀs ᴀᴅᴍɪɴ 
+
 *Commmands*
- ❍ /fsub {channel username} - To turn on and setup the channel.
-  💡Do this first...
- ❍ /fsub - To get the current settings.
- ❍ /fsub disable - To turn of ForceSubscribe..
-  💡If you disable fsub, you need to set again for working.. /fsub {channel username} 
- ❍ /fsub clear - To unmute all members who muted by me.
+ ❍ /fsub {ᴄʜᴀɴɴᴇʟ ᴜsᴇʀɴᴀᴍᴇ} - Tᴏ ᴛᴜʀɴ ᴏɴ ᴀɴᴅ sᴇᴛᴜᴘ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ.
+  💡Dᴏ ᴛʜɪs ғɪʀsᴛ...
+ ❍ /fsub- Tᴏ ɢᴇᴛ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ sᴇᴛᴛɪɴɢs.
+ ❍ /fsubdisable - Tᴏ ᴛᴜʀɴ ᴏғ FᴏʀᴄᴇSᴜʙsᴄʀɪʙᴇ..
+  💡Iғ ʏᴏᴜ ᴅɪsᴀʙʟᴇ ғsᴜʙ, ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ sᴇᴛ ᴀɢᴀɪɴ ғᴏʀ ᴡᴏʀᴋɪɴɢ.. /ғsᴜʙ {ᴄʜᴀɴɴᴇʟ ᴜsᴇʀɴᴀᴍᴇ} 
+ ❍ /fsubclear - Tᴏ ᴜɴᴍᴜᴛᴇ ᴀʟʟ ᴍᴇᴍʙᴇʀs ᴡʜᴏ ᴍᴜᴛᴇᴅ ʙʏ ᴍᴇ.
 """
-__mod_name__ = "ғ-Sᴜʙ🤭"
+__mod_name__ = "Ғ-ՏႮᏴ🤭"
