@@ -24,8 +24,8 @@ async def covid(_, message):
 
 
 __HELP__ = """
- ❍ /covid - To Get Global Stats of Covid.
- ❍ /covid <COUNTRY> - To Get Stats of A Single Country.
+ ❍ /covid - Tᴏ Gᴇᴛ Gʟᴏʙᴀʟ Sᴛᴀᴛs ᴏғ Cᴏᴠɪᴅ.
+ ❍ /covid <COUNTRY> - Tᴏ Gᴇᴛ Sᴛᴀᴛs ᴏғ A Sɪɴɢʟᴇ Cᴏᴜɴᴛʀʏ.
 """
 
-__mod_name__ = "COVID"
+__mod_name__ = "ᏟϴᏙᏆᎠ-19 😷"
