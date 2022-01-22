@@ -1,8 +1,6 @@
 __help__= f"""
 **ᴀʟʟ  ᴄʀᴇᴀᴅɪᴛs  ᴛᴏ 
-        @THETELEGRAMPRO
-         @Kittu_the_criminall
-          @Sarbudeen786**
+        @CRACKERON ME😂
 """
 
-__mod_name__ = "ᴄʀᴇᴀᴅɪᴛs🤧"
+__mod_name__ = "ᑕᖇᗴᗞᏆᎢ🥲"
