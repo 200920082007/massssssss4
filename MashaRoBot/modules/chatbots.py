@@ -1,7 +1,7 @@
 __help__= f"""
-*Thanimai AI * 
-/addchat : Enables and Disables kazuko AI Chat mode (EXCLUSIVE)
+*SINGLE* 
+/addchat : Eɴᴀʙʟᴇs ᴀɴᴅ Dɪsᴀʙʟᴇs ᴋᴀᴢᴜᴋᴏ AI Cʜᴀᴛ ᴍᴏᴅᴇ (EXCLUSIVE)
 *Powered by* : [Kuki Chatbot](https://github.com/MoeZilla/KukiChatbot)
 """
 
-__mod_name__ = "ᴄʜᴀᴛʙᴏᴛ🤓"
+__mod_name__ = "ᏟᎻᎪͲᏴϴͲ🤏"
