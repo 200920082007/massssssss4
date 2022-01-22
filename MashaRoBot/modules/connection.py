@@ -393,14 +393,16 @@ __help__ = """
 Sometimes, you just want to add some notes and filters to a group chat, but you don't want everyone to see; This is where connections come in...
 This allows you to connect to a chat's database, and add things to it without the commands appearing in chat! For obvious reasons, you need to be an admin to add things; but any member in the group can view your data.
 
- ❍ /connect: Connects to chat (Can be done in a group by /connect or /connect <chat id> in PM)
- ❍ /connection: List connected chats
- ❍ /disconnect: Disconnect from a chat
- ❍ /helpconnect: List available commands that can be used remotely
+ ❍ /connect: Cᴏɴɴᴇᴄᴛs ᴛᴏ ᴄʜᴀᴛ (Cᴀɴ ʙᴇ ᴅᴏɴᴇ ɪɴ ᴀ ɢʀᴏᴜᴘ ʙʏ /ᴄᴏɴɴᴇᴄᴛ ᴏʀ /ᴄᴏɴɴᴇᴄᴛ <ᴄʜᴀᴛ ɪᴅ> ɪɴ PM)
+ ❍ /connection: Lɪsᴛ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴄʜᴀᴛs
+ ❍ /disconnect: Dɪsᴄᴏɴɴᴇᴄᴛ ғʀᴏᴍ ᴀ ᴄʜᴀᴛ
+ ❍ /helpconnect: Lɪsᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ᴛʜᴀᴛ ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʀᴇᴍᴏᴛᴇʟʏ
 
-*Admin only:*
- ❍ /allowconnect <yes/no>: allow a user to connect to a chat
+*Aᴅᴍɪɴ ᴏɴʟʏ:*
+ ❍ /allowconnect <ʏᴇs/ɴᴏ>: ᴀʟʟᴏᴡ ᴀ ᴜsᴇʀ ᴛᴏ ᴄᴏɴɴᴇᴄᴛ ᴛᴏ ᴀ ᴄʜᴀᴛ
 """
+
+ 
 
 CONNECT_CHAT_HANDLER = CommandHandler("connect", connect_chat, pass_args=True)
 CONNECTION_CHAT_HANDLER = CommandHandler("connection", connection_chat)
