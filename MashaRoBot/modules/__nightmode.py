@@ -170,11 +170,11 @@ scheduler.start()
 __help__ = f"""
  ❍ /nightmode on/off
  
-**Note:** Night Mode chats get Automatically closed at 12pm(IST)
-and Automatically openned at 6am(IST) To Prevent Night Spams.
+**Note:** Nɪɢʜᴛ Mᴏᴅᴇ ᴄʜᴀᴛs ɢᴇᴛ Aᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴄʟᴏsᴇᴅ ᴀᴛ 12ᴘᴍ(IST)
+ᴀɴᴅ Aᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴏᴘᴇɴɴᴇᴅ ᴀᴛ 6ᴀᴍ(IST) Tᴏ Pʀᴇᴠᴇɴᴛ Nɪɢʜᴛ Sᴘᴀᴍs.
 """
 
-__mod_name__ = "ɴ-ᴍᴏᴅᴇ😴"
+__mod_name__ = "Ν-ᎷϴᎠᎬ😴"
 
 
             
