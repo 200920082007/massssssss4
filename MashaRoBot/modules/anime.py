@@ -532,18 +532,18 @@ def kayo(update: Update, context: CallbackContext):
 
 
 __help__ = """
-Get information about anime, manga or characters from [AniList](anilist.co).
+Gᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴀɴɪᴍᴇ, ᴍᴀɴɢᴀ ᴏʀ ᴄʜᴀʀᴀᴄᴛᴇʀs ғʀᴏᴍ [AɴɪLɪsᴛ](ᴀɴɪʟɪsᴛ.ᴄᴏ).
 
-*Available commands:*
+*Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:*
 
- ❍ /anime <anime>*:* returns information about the anime.
- ❍ /character <character>*:* returns information about the character.
- ❍ /manga <manga>*:* returns information about the manga.
- ❍ /user <user>*:* returns information about a MyAnimeList user.
- ❍ /upcoming*:* returns a list of new anime in the upcoming seasons.
- ❍ /kaizoku <anime>*:* search an anime on animekaizoku.com
- ❍ /kayo <anime>*:* search an anime on animekayo.com
- ❍ /airing <anime>*:* returns anime airing info.
+ ❍ /anime <ᴀɴɪᴍᴇ>*:* ʀᴇᴛᴜʀɴs ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴛʜᴇ ᴀɴɪᴍᴇ.
+ ❍ /character <ᴄʜᴀʀᴀᴄᴛᴇʀ>*:* ʀᴇᴛᴜʀɴs ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴛʜᴇ ᴄʜᴀʀᴀᴄᴛᴇʀ.
+ ❍ /manga <ᴍᴀɴɢᴀ>*:* ʀᴇᴛᴜʀɴs ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴛʜᴇ ᴍᴀɴɢᴀ.
+ ❍ /user <ᴜsᴇʀ>*:* ʀᴇᴛᴜʀɴs ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴀ MʏAɴɪᴍᴇLɪsᴛ ᴜsᴇʀ.
+ ❍ /upcoming*:* ʀᴇᴛᴜʀɴs ᴀ ʟɪsᴛ ᴏғ ɴᴇᴡ ᴀɴɪᴍᴇ ɪɴ ᴛʜᴇ ᴜᴘᴄᴏᴍɪɴɢ sᴇᴀsᴏɴs.
+ ❍ /kaizoku <ᴀɴɪᴍᴇ>*:* sᴇᴀʀᴄʜ ᴀɴ ᴀɴɪᴍᴇ ᴏɴ ᴀɴɪᴍᴇᴋᴀɪᴢᴏᴋᴜ.ᴄᴏᴍ
+ ❍ /kayo <ᴀɴɪᴍᴇ>*:* sᴇᴀʀᴄʜ ᴀɴ ᴀɴɪᴍᴇ ᴏɴ ᴀɴɪᴍᴇᴋᴀʏᴏ.ᴄᴏᴍ
+ ❍ /airing <ᴀɴɪᴍᴇ>*:* ʀᴇᴛᴜʀɴs ᴀɴɪᴍᴇ ᴀɪʀɪɴɢ ɪɴғᴏ.
 
 """
 
@@ -565,7 +565,7 @@ dispatcher.add_handler(KAIZOKU_SEARCH_HANDLER)
 dispatcher.add_handler(KAYO_SEARCH_HANDLER)
 dispatcher.add_handler(UPCOMING_HANDLER)
 
-__mod_name__ = "Aɴɪᴍᴇ🧚"
+__mod_name__ = "ᎪΝᏆᎷᎬᏃ🧚"
 __command_list__ = [
     "anime",
     "manga",
