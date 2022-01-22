@@ -21,14 +21,14 @@ def fun(update: Update, context: CallbackContext):
         random.choice(animequotes_strings.QUOTES_IMG))
 
 __help__ = """
- • `/fun`*:* gives random tamil memes
+ • `/fun`*:* ɢɪᴠᴇs ʀᴀɴᴅᴏᴍ ᴛᴀᴍɪʟ ᴍᴇᴍᴇs
  
 """
 ANIMEQUOTES_HANDLER = DisableAbleCommandHandler("fun", fun)
 
 dispatcher.add_handler(ANIMEQUOTES_HANDLER)
 
-__mod_name__ = "ᴛᴀᴍɪʟ ᴍᴇᴍᴇs"
+__mod_name__ = "ͲᎪᎷᏆᏞ ᎷᎬᎷᎬՏ🧑‍🎤"
 __command_list__ = [
     "fun"
 ]
