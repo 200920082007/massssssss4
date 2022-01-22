@@ -318,13 +318,13 @@ def text5(update, context):
             
 __help__ = """
 
- ❍ `/text1`*:* reply to the text.
- ❍ `/text2`*:* reply to the text.
- ❍ `/text3`*:* reply to the text.
- ❍ `/text4`*:* reply to the text.
- ❍ `/text5`*:* reply to the text.
+ ❍ `/text1`*:* ʀᴇᴘʟʏ ᴛᴏ ᴛʜᴇ ᴛᴇxᴛ.
+ ❍ `/text2`*:* ʀᴇᴘʟʏ ᴛᴏ ᴛʜᴇ ᴛᴇxᴛ.
+ ❍ `/text3`*:* ʀᴇᴘʟʏ ᴛᴏ ᴛʜᴇ ᴛᴇxᴛ.
+ ❍ `/text4`*:* ʀᴇᴘʟʏ ᴛᴏ ᴛʜᴇ ᴛᴇxᴛ.
+ ❍ `/text5`*:* ʀᴇᴘʟʏ ᴛᴏ ᴛʜᴇ ᴛᴇxᴛ.
 """
-__mod_name__ = "sᴛʏʟᴇ ᴛᴇxᴛ🦚"
+__mod_name__ = "ՏͲᎽᏞᎬ ͲᎬХͲ🦚"
 
 TEXT1_HANDLER = DisableAbleCommandHandler("text1", text1)
 TEXT2_HANDLER = DisableAbleCommandHandler("text2", text2)
