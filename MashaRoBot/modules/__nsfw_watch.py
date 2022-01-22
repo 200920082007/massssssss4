@@ -111,9 +111,9 @@ async def ws(event):
 
 
 __help__ = """
-Masha can protect your group from NSFW senders
- ❍ /addnsfw*:* Adds The Group to nsfw Watch List
- ❍ /rmnsfw*:* Removes The Group From nsfw Watch List
+Mᴀsʜᴀ ᴄᴀɴ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ ғʀᴏᴍ NSFW sᴇɴᴅᴇʀs
+ ❍ /addnsfw*:* Aᴅᴅs Tʜᴇ Gʀᴏᴜᴘ ᴛᴏ ɴsғᴡ Wᴀᴛᴄʜ Lɪsᴛ
+ ❍ /rmnsfw*:* Rᴇᴍᴏᴠᴇs Tʜᴇ Gʀᴏᴜᴘ Fʀᴏᴍ ɴsғᴡ Wᴀᴛᴄʜ Lɪsᴛ
 """
 
-__mod_name__ = "ɴsғᴡ☠️"
+__mod_name__ = "ΝՏᏔҒ😈"
