@@ -10,129 +10,129 @@ from MashaRoBot.modules.disable import DisableAbleCommandHandler
 
 SFW_STRINGS = (
 
-    "Owww ... Such a stupid idiot.",
+    "Oᴡᴡᴡ ... Sᴜᴄʜ ᴀ sᴛᴜᴘɪᴅ ɪᴅɪᴏᴛ.",
 
-    "Don't drink and type.",
+    "Dᴏɴ'ᴛ ᴅʀɪɴᴋ ᴀɴᴅ ᴛʏᴘᴇ.",
 
-    "I think you should go home or better a mental asylum.",
+    "I ᴛʜɪɴᴋ ʏᴏᴜ sʜᴏᴜʟᴅ ɢᴏ ʜᴏᴍᴇ ᴏʀ ʙᴇᴛᴛᴇʀ ᴀ ᴍᴇɴᴛᴀʟ ᴀsʏʟᴜᴍ.",
 
-    "Command not found. Just like your brain.",
+    "Cᴏᴍᴍᴀɴᴅ ɴᴏᴛ ғᴏᴜɴᴅ. Jᴜsᴛ ʟɪᴋᴇ ʏᴏᴜʀ ʙʀᴀɪɴ.",
 
-    "Do you realize you are making a fool of yourself? Apparently not.",
+    "Dᴏ ʏᴏᴜ ʀᴇᴀʟɪᴢᴇ ʏᴏᴜ ᴀʀᴇ ᴍᴀᴋɪɴɢ ᴀ ғᴏᴏʟ ᴏғ ʏᴏᴜʀsᴇʟғ? Aᴘᴘᴀʀᴇɴᴛʟʏ ɴᴏᴛ.",
 
-    "You can type better than that.",
+    "Yᴏᴜ ᴄᴀɴ ᴛʏᴘᴇ ʙᴇᴛᴛᴇʀ ᴛʜᴀɴ ᴛʜᴀᴛ.",
 
-    "Bot rule 544 section 9 prevents me from replying to stupid humans like you.",
+    "Bᴏᴛ ʀᴜʟᴇ 544 sᴇᴄᴛɪᴏɴ 9 ᴘʀᴇᴠᴇɴᴛs ᴍᴇ ғʀᴏᴍ ʀᴇᴘʟʏɪɴɢ ᴛᴏ sᴛᴜᴘɪᴅ ʜᴜᴍᴀɴs ʟɪᴋᴇ ʏᴏᴜ.",
 
-    "Sorry, we do not sell brains.",
+    "Sᴏʀʀʏ, ᴡᴇ ᴅᴏ ɴᴏᴛ sᴇʟʟ ʙʀᴀɪɴs.",
 
-    "Believe me you are not normal.",
+    "Bᴇʟɪᴇᴠᴇ ᴍᴇ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ɴᴏʀᴍᴀʟ.",
 
-    "I bet your brain feels as good as new, seeing that you never use it.",
+    "I ʙᴇᴛ ʏᴏᴜʀ ʙʀᴀɪɴ ғᴇᴇʟs ᴀs ɢᴏᴏᴅ ᴀs ɴᴇᴡ, sᴇᴇɪɴɢ ᴛʜᴀᴛ ʏᴏᴜ ɴᴇᴠᴇʀ ᴜsᴇ ɪᴛ.",
 
-    "If I wanted to kill myself I'd climb your ego and jump to your IQ.",
+    "Iғ I ᴡᴀɴᴛᴇᴅ ᴛᴏ ᴋɪʟʟ ᴍʏsᴇʟғ I'ᴅ ᴄʟɪᴍʙ ʏᴏᴜʀ ᴇɢᴏ ᴀɴᴅ ᴊᴜᴍᴘ ᴛᴏ ʏᴏᴜʀ IQ.",
 
-    "Zombies eat brains... you're safe.",
+    "Zᴏᴍʙɪᴇs ᴇᴀᴛ ʙʀᴀɪɴs... ʏᴏᴜ'ʀᴇ sᴀғᴇ.",
 
-    "You didn't evolve from apes, they evolved from you.",
+    "Yᴏᴜ ᴅɪᴅɴ'ᴛ ᴇᴠᴏʟᴠᴇ ғʀᴏᴍ ᴀᴘᴇs, ᴛʜᴇʏ ᴇᴠᴏʟᴠᴇᴅ ғʀᴏᴍ ʏᴏᴜ.",
 
-    "Come back and talk to me when your I.Q. exceeds your age.",
+    "Cᴏᴍᴇ ʙᴀᴄᴋ ᴀɴᴅ ᴛᴀʟᴋ ᴛᴏ ᴍᴇ ᴡʜᴇɴ ʏᴏᴜʀ I.Q. ᴇxᴄᴇᴇᴅs ʏᴏᴜʀ ᴀɢᴇ.",
 
-    "I'm not saying you're stupid, I'm just saying you've got bad luck when it comes to thinking.",
+    "I'ᴍ ɴᴏᴛ sᴀʏɪɴɢ ʏᴏᴜ'ʀᴇ sᴛᴜᴘɪᴅ, I'ᴍ ᴊᴜsᴛ sᴀʏɪɴɢ ʏᴏᴜ'ᴠᴇ ɢᴏᴛ ʙᴀᴅ ʟᴜᴄᴋ ᴡʜᴇɴ ɪᴛ ᴄᴏᴍᴇs ᴛᴏ ᴛʜɪɴᴋɪɴɢ.",
 
-    "What language are you speaking? Cause it sounds like bullshit.",
+    "Wʜᴀᴛ ʟᴀɴɢᴜᴀɢᴇ ᴀʀᴇ ʏᴏᴜ sᴘᴇᴀᴋɪɴɢ? Cᴀᴜsᴇ ɪᴛ sᴏᴜɴᴅs ʟɪᴋᴇ ʙᴜʟʟsʜɪᴛ.",
 
-    "Stupidity is not a crime so you are free to go.",
+    "Sᴛᴜᴘɪᴅɪᴛʏ ɪs ɴᴏᴛ ᴀ ᴄʀɪᴍᴇ sᴏ ʏᴏᴜ ᴀʀᴇ ғʀᴇᴇ ᴛᴏ ɢᴏ.",
 
-    "You are proof that evolution CAN go in reverse.",
+    "Yᴏᴜ ᴀʀᴇ ᴘʀᴏᴏғ ᴛʜᴀᴛ ᴇᴠᴏʟᴜᴛɪᴏɴ CAN ɢᴏ ɪɴ ʀᴇᴠᴇʀsᴇ.",
 
-    "I would ask you how old you are but I know you can't count that high.",
+    "I ᴡᴏᴜʟᴅ ᴀsᴋ ʏᴏᴜ ʜᴏᴡ ᴏʟᴅ ʏᴏᴜ ᴀʀᴇ ʙᴜᴛ I ᴋɴᴏᴡ ʏᴏᴜ ᴄᴀɴ'ᴛ ᴄᴏᴜɴᴛ ᴛʜᴀᴛ ʜɪɢʜ.",
 
-    "As an outsider, what do you think of the human race?",
+    "As ᴀɴ ᴏᴜᴛsɪᴅᴇʀ, ᴡʜᴀᴛ ᴅᴏ ʏᴏᴜ ᴛʜɪɴᴋ ᴏғ ᴛʜᴇ ʜᴜᴍᴀɴ ʀᴀᴄᴇ?",
 
-    "Brains aren't everything. In your case they're nothing.",
+    "Bʀᴀɪɴs ᴀʀᴇɴ'ᴛ ᴇᴠᴇʀʏᴛʜɪɴɢ. Iɴ ʏᴏᴜʀ ᴄᴀsᴇ ᴛʜᴇʏ'ʀᴇ ɴᴏᴛʜɪɴɢ.",
 
-    "Ordinarily people live and learn. You just live.",
+    "Oʀᴅɪɴᴀʀɪʟʏ ᴘᴇᴏᴘʟᴇ ʟɪᴠᴇ ᴀɴᴅ ʟᴇᴀʀɴ. Yᴏᴜ ᴊᴜsᴛ ʟɪᴠᴇ.",
 
-    "I don't know what makes you so stupid, but it really works.",
+    "I ᴅᴏɴ'ᴛ ᴋɴᴏᴡ ᴡʜᴀᴛ ᴍᴀᴋᴇs ʏᴏᴜ sᴏ sᴛᴜᴘɪᴅ, ʙᴜᴛ ɪᴛ ʀᴇᴀʟʟʏ ᴡᴏʀᴋs.",
 
-    "Keep talking, someday you'll say something intelligent! (I doubt it though)",
+    "Kᴇᴇᴘ ᴛᴀʟᴋɪɴɢ, sᴏᴍᴇᴅᴀʏ ʏᴏᴜ'ʟʟ sᴀʏ sᴏᴍᴇᴛʜɪɴɢ ɪɴᴛᴇʟʟɪɢᴇɴᴛ! (I ᴅᴏᴜʙᴛ ɪᴛ ᴛʜᴏᴜɢʜ)",
 
-    "Shock me, say something intelligent.",
+    "Sʜᴏᴄᴋ ᴍᴇ, sᴀʏ sᴏᴍᴇᴛʜɪɴɢ ɪɴᴛᴇʟʟɪɢᴇɴᴛ.",
 
-    "Your IQ's lower than your shoe size.",
+    "Yᴏᴜʀ IQ's ʟᴏᴡᴇʀ ᴛʜᴀɴ ʏᴏᴜʀ sʜᴏᴇ sɪᴢᴇ.",
 
-    "Alas! Your neurotransmitters are no more working.",
+    "Aʟᴀs! Yᴏᴜʀ ɴᴇᴜʀᴏᴛʀᴀɴsᴍɪᴛᴛᴇʀs ᴀʀᴇ ɴᴏ ᴍᴏʀᴇ ᴡᴏʀᴋɪɴɢ.",
 
-    "Are you crazy you fool.",
+    "Aʀᴇ ʏᴏᴜ ᴄʀᴀᴢʏ ʏᴏᴜ ғᴏᴏʟ.",
 
-    "Everyone has the right to be stupid but you are abusing the privilege.",
+    "Eᴠᴇʀʏᴏɴᴇ ʜᴀs ᴛʜᴇ ʀɪɢʜᴛ ᴛᴏ ʙᴇ sᴛᴜᴘɪᴅ ʙᴜᴛ ʏᴏᴜ ᴀʀᴇ ᴀʙᴜsɪɴɢ ᴛʜᴇ ᴘʀɪᴠɪʟᴇɢᴇ.",
 
-    "I'm sorry I hurt your feelings when I called you stupid. I thought you already knew that.",
+    "I'ᴍ sᴏʀʀʏ I ʜᴜʀᴛ ʏᴏᴜʀ ғᴇᴇʟɪɴɢs ᴡʜᴇɴ I ᴄᴀʟʟᴇᴅ ʏᴏᴜ sᴛᴜᴘɪᴅ. I ᴛʜᴏᴜɢʜᴛ ʏᴏᴜ ᴀʟʀᴇᴀᴅʏ ᴋɴᴇᴡ ᴛʜᴀᴛ.",
 
-    "You should try tasting cyanide.",
+    "Yᴏᴜ sʜᴏᴜʟᴅ ᴛʀʏ ᴛᴀsᴛɪɴɢ ᴄʏᴀɴɪᴅᴇ.",
 
-    "Your enzymes are meant to digest rat poison.",
+    "Yᴏᴜʀ ᴇɴᴢʏᴍᴇs ᴀʀᴇ ᴍᴇᴀɴᴛ ᴛᴏ ᴅɪɢᴇsᴛ ʀᴀᴛ ᴘᴏɪsᴏɴ.",
 
-    "You should try sleeping forever.",
+    "Yᴏᴜ sʜᴏᴜʟᴅ ᴛʀʏ sʟᴇᴇᴘɪɴɢ ғᴏʀᴇᴠᴇʀ.",
 
-    "You could make a world record by jumping from a plane without parachute.",
+    "Yᴏᴜ ᴄᴏᴜʟᴅ ᴍᴀᴋᴇ ᴀ ᴡᴏʀʟᴅ ʀᴇᴄᴏʀᴅ ʙʏ ᴊᴜᴍᴘɪɴɢ ғʀᴏᴍ ᴀ ᴘʟᴀɴᴇ ᴡɪᴛʜᴏᴜᴛ ᴘᴀʀᴀᴄʜᴜᴛᴇ.",
 
-    "Stop talking BS and jump in front of a running bullet train.",
+    "Sᴛᴏᴘ ᴛᴀʟᴋɪɴɢ BS ᴀɴᴅ ᴊᴜᴍᴘ ɪɴ ғʀᴏɴᴛ ᴏғ ᴀ ʀᴜɴɴɪɴɢ ʙᴜʟʟᴇᴛ ᴛʀᴀɪɴ.",
 
-    "Try bathing with Hydrochloric Acid instead of water.",
+    "Tʀʏ ʙᴀᴛʜɪɴɢ ᴡɪᴛʜ Hʏᴅʀᴏᴄʜʟᴏʀɪᴄ Aᴄɪᴅ ɪɴsᴛᴇᴀᴅ ᴏғ ᴡᴀᴛᴇʀ.",
 
-    "Try this: if you hold your breath underwater for an hour, you can then hold it forever.",
+    "Tʀʏ ᴛʜɪs: ɪғ ʏᴏᴜ ʜᴏʟᴅ ʏᴏᴜʀ ʙʀᴇᴀᴛʜ ᴜɴᴅᴇʀᴡᴀᴛᴇʀ ғᴏʀ ᴀɴ ʜᴏᴜʀ, ʏᴏᴜ ᴄᴀɴ ᴛʜᴇɴ ʜᴏʟᴅ ɪᴛ ғᴏʀᴇᴠᴇʀ.",
 
-    "Go Green! Stop inhaling Oxygen.",
+    "Gᴏ Gʀᴇᴇɴ! Sᴛᴏᴘ ɪɴʜᴀʟɪɴɢ Oxʏɢᴇɴ.",
 
-    "God was searching for you. You should leave to meet him.",
+    "Gᴏᴅ ᴡᴀs sᴇᴀʀᴄʜɪɴɢ ғᴏʀ ʏᴏᴜ. Yᴏᴜ sʜᴏᴜʟᴅ ʟᴇᴀᴠᴇ ᴛᴏ ᴍᴇᴇᴛ ʜɪᴍ.",
 
-    "give your 100%. Now, go donate blood.",
+    "ɢɪᴠᴇ ʏᴏᴜʀ 100%. Nᴏᴡ, ɢᴏ ᴅᴏɴᴀᴛᴇ ʙʟᴏᴏᴅ.",
 
-    "Try jumping from a hundred story building but you can do it only once.",
+    "Tʀʏ ᴊᴜᴍᴘɪɴɢ ғʀᴏᴍ ᴀ ʜᴜɴᴅʀᴇᴅ sᴛᴏʀʏ ʙᴜɪʟᴅɪɴɢ ʙᴜᴛ ʏᴏᴜ ᴄᴀɴ ᴅᴏ ɪᴛ ᴏɴʟʏ ᴏɴᴄᴇ.",
 
-    "You should donate your brain seeing that you never used it.",
+    "Yᴏᴜ sʜᴏᴜʟᴅ ᴅᴏɴᴀᴛᴇ ʏᴏᴜʀ ʙʀᴀɪɴ sᴇᴇɪɴɢ ᴛʜᴀᴛ ʏᴏᴜ ɴᴇᴠᴇʀ ᴜsᴇᴅ ɪᴛ.",
 
-    "Volunteer for target in an firing range.",
+    "Vᴏʟᴜɴᴛᴇᴇʀ ғᴏʀ ᴛᴀʀɢᴇᴛ ɪɴ ᴀɴ ғɪʀɪɴɢ ʀᴀɴɢᴇ.",
 
-    "Head shots are fun. Get yourself one.",
+    "Hᴇᴀᴅ sʜᴏᴛs ᴀʀᴇ ғᴜɴ. Gᴇᴛ ʏᴏᴜʀsᴇʟғ ᴏɴᴇ.",
 
-    "You should try swimming with great white sharks.",
+    "Yᴏᴜ sʜᴏᴜʟᴅ ᴛʀʏ sᴡɪᴍᴍɪɴɢ ᴡɪᴛʜ ɢʀᴇᴀᴛ ᴡʜɪᴛᴇ sʜᴀʀᴋs.",
 
-    "You should paint yourself red and run in a bull marathon.",
+    "Yᴏᴜ sʜᴏᴜʟᴅ ᴘᴀɪɴᴛ ʏᴏᴜʀsᴇʟғ ʀᴇᴅ ᴀɴᴅ ʀᴜɴ ɪɴ ᴀ ʙᴜʟʟ ᴍᴀʀᴀᴛʜᴏɴ.",
 
-    "You can stay underwater for the rest of your life without coming back up.",
+    "Yᴏᴜ ᴄᴀɴ sᴛᴀʏ ᴜɴᴅᴇʀᴡᴀᴛᴇʀ ғᴏʀ ᴛʜᴇ ʀᴇsᴛ ᴏғ ʏᴏᴜʀ ʟɪғᴇ ᴡɪᴛʜᴏᴜᴛ ᴄᴏᴍɪɴɢ ʙᴀᴄᴋ ᴜᴘ.",
 
-    "How about you stop breathing for like 1 day? That'll be great.",
+    "Hᴏᴡ ᴀʙᴏᴜᴛ ʏᴏᴜ sᴛᴏᴘ ʙʀᴇᴀᴛʜɪɴɢ ғᴏʀ ʟɪᴋᴇ 1 ᴅᴀʏ? Tʜᴀᴛ'ʟʟ ʙᴇ ɢʀᴇᴀᴛ.",
 
-    "Try provoking a tiger while you both are in a cage.",
+    "Tʀʏ ᴘʀᴏᴠᴏᴋɪɴɢ ᴀ ᴛɪɢᴇʀ ᴡʜɪʟᴇ ʏᴏᴜ ʙᴏᴛʜ ᴀʀᴇ ɪɴ ᴀ ᴄᴀɢᴇ.",
 
-    "Have you tried shooting yourself as high as 100m using a canon.",
+    "Hᴀᴠᴇ ʏᴏᴜ ᴛʀɪᴇᴅ sʜᴏᴏᴛɪɴɢ ʏᴏᴜʀsᴇʟғ ᴀs ʜɪɢʜ ᴀs 100ᴍ ᴜsɪɴɢ ᴀ ᴄᴀɴᴏɴ.",
 
-    "You should try holding TNT in your mouth and igniting it.",
+    "Yᴏᴜ sʜᴏᴜʟᴅ ᴛʀʏ ʜᴏʟᴅɪɴɢ TNT ɪɴ ʏᴏᴜʀ ᴍᴏᴜᴛʜ ᴀɴᴅ ɪɢɴɪᴛɪɴɢ ɪᴛ.",
 
-    "Try playing catch and throw with RDX its fun.",
+    "Tʀʏ ᴘʟᴀʏɪɴɢ ᴄᴀᴛᴄʜ ᴀɴᴅ ᴛʜʀᴏᴡ ᴡɪᴛʜ RDX ɪᴛs ғᴜɴ.",
 
-    "I heard phogine is poisonous but i guess you wont mind inhaling it for fun.",
+    "I ʜᴇᴀʀᴅ ᴘʜᴏɢɪɴᴇ ɪs ᴘᴏɪsᴏɴᴏᴜs ʙᴜᴛ ɪ ɢᴜᴇss ʏᴏᴜ ᴡᴏɴᴛ ᴍɪɴᴅ ɪɴʜᴀʟɪɴɢ ɪᴛ ғᴏʀ ғᴜɴ.",
 
-    "Launch yourself into outer space while forgetting oxygen on Earth.",
+    "Lᴀᴜɴᴄʜ ʏᴏᴜʀsᴇʟғ ɪɴᴛᴏ ᴏᴜᴛᴇʀ sᴘᴀᴄᴇ ᴡʜɪʟᴇ ғᴏʀɢᴇᴛᴛɪɴɢ ᴏxʏɢᴇɴ ᴏɴ Eᴀʀᴛʜ.",
 
-    "You should try playing snake and ladders, with real snakes and no ladders.",
+    "Yᴏᴜ sʜᴏᴜʟᴅ ᴛʀʏ ᴘʟᴀʏɪɴɢ sɴᴀᴋᴇ ᴀɴᴅ ʟᴀᴅᴅᴇʀs, ᴡɪᴛʜ ʀᴇᴀʟ sɴᴀᴋᴇs ᴀɴᴅ ɴᴏ ʟᴀᴅᴅᴇʀs.",
 
-    "Dance naked on a couple of HT wires.",
+    "Dᴀɴᴄᴇ ɴᴀᴋᴇᴅ ᴏɴ ᴀ ᴄᴏᴜᴘʟᴇ ᴏғ HT ᴡɪʀᴇs.",
 
-    "Active Volcano is the best swimming pool for you.",
+    "Aᴄᴛɪᴠᴇ Vᴏʟᴄᴀɴᴏ ɪs ᴛʜᴇ ʙᴇsᴛ sᴡɪᴍᴍɪɴɢ ᴘᴏᴏʟ ғᴏʀ ʏᴏᴜ.",
 
-    "You should try hot bath in a volcano.",
+    "Yᴏᴜ sʜᴏᴜʟᴅ ᴛʀʏ ʜᴏᴛ ʙᴀᴛʜ ɪɴ ᴀ ᴠᴏʟᴄᴀɴᴏ.",
 
-    "Try to spend one day in a coffin and it will be yours forever.",
+    "Tʀʏ ᴛᴏ sᴘᴇɴᴅ ᴏɴᴇ ᴅᴀʏ ɪɴ ᴀ ᴄᴏғғɪɴ ᴀɴᴅ ɪᴛ ᴡɪʟʟ ʙᴇ ʏᴏᴜʀs ғᴏʀᴇᴠᴇʀ.",
 
-    "Hit Uranium with a slow moving neutron in your presence. It will be a worthwhile experience.",
+    "Hɪᴛ Uʀᴀɴɪᴜᴍ ᴡɪᴛʜ ᴀ sʟᴏᴡ ᴍᴏᴠɪɴɢ ɴᴇᴜᴛʀᴏɴ ɪɴ ʏᴏᴜʀ ᴘʀᴇsᴇɴᴄᴇ. Iᴛ ᴡɪʟʟ ʙᴇ ᴀ ᴡᴏʀᴛʜᴡʜɪʟᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ.",
 
-    "You can be the first person to step on sun. Have a try.",
+    "Yᴏᴜ ᴄᴀɴ ʙᴇ ᴛʜᴇ ғɪʀsᴛ ᴘᴇʀsᴏɴ ᴛᴏ sᴛᴇᴘ ᴏɴ sᴜɴ. Hᴀᴠᴇ ᴀ ᴛʀʏ.",
 
-     "jada aano monusae @AnonymousD3061 🤭.",
+     "ᴊᴀᴅᴀ ᴀᴀɴᴏ ᴍᴏɴᴜsᴀᴇ @AɴᴏɴʏᴍᴏᴜsD3061 🤭.",
 
 )
 
@@ -158,7 +158,7 @@ __help__ = """
 
 """
 
-__mod_name__ = "Insults"
+__mod_name__ = "ᏆΝՏႮᏞͲՏ🤬"
 
 INSULT_HANDLER = DisableAbleCommandHandler("insult", insult)
 
