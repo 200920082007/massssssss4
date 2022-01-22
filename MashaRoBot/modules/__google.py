@@ -275,13 +275,13 @@ async def apk(e):
         await e.reply("Exception Occured:- " + str(err))
 
 
-__mod_name__ = "Gᴏᴏɢʟᴇ🤳"
+__mod_name__ = "ᏀϴϴᏀᏞᎬ👀"
 
 __help__ = """
- ❍ /google <text>*:* Perform a google search
- ❍ /img <text>*:* Search Google for images and returns them\nFor greater no. of results specify lim, For eg: `/img hello lim=10`
- ❍ /app <appname>*:* Searches for an app in Play Store and returns its details.
- ❍ /reverse: Does a reverse image search of the media which it was replied to.
- ❍ Masha <query>*:* Masha answers the query
-  💡Ex: `Athena where is India?`
+ ❍ /google <text>*:* Pᴇʀғᴏʀᴍ ᴀ ɢᴏᴏɢʟᴇ sᴇᴀʀᴄʜ
+ ❍ /img <text>*:* Sᴇᴀʀᴄʜ Gᴏᴏɢʟᴇ ғᴏʀ ɪᴍᴀɢᴇs ᴀɴᴅ ʀᴇᴛᴜʀɴs ᴛʜᴇᴍ\ɴFᴏʀ ɢʀᴇᴀᴛᴇʀ ɴᴏ. ᴏғ ʀᴇsᴜʟᴛs sᴘᴇᴄɪғʏ ʟɪᴍ, Fᴏʀ ᴇɢ: `/ɪᴍɢ ʜᴇʟʟᴏ ʟɪᴍ=10`
+ ❍ /app <appname>*:* Sᴇᴀʀᴄʜᴇs ғᴏʀ ᴀɴ ᴀᴘᴘ ɪɴ Pʟᴀʏ Sᴛᴏʀᴇ ᴀɴᴅ ʀᴇᴛᴜʀɴs ɪᴛs ᴅᴇᴛᴀɪʟs.
+ ❍ /reverse: Dᴏᴇs ᴀ ʀᴇᴠᴇʀsᴇ ɪᴍᴀɢᴇ sᴇᴀʀᴄʜ ᴏғ ᴛʜᴇ ᴍᴇᴅɪᴀ ᴡʜɪᴄʜ ɪᴛ ᴡᴀs ʀᴇᴘʟɪᴇᴅ ᴛᴏ.
+ ❍ Masha <query>*:* Mᴀsʜᴀ ᴀɴsᴡᴇʀs ᴛʜᴇ ϙᴜᴇʀʏ
+  💡Ex: `where is distance Chennai to tirupathi?`
 """
