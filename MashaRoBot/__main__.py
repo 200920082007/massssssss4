@@ -59,7 +59,8 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """ 
+PM_START_TEXT = """
+Reply photo photo = https://telegra.ph/file/cbc809a3fa227322dc7af.jpg 
 ᎻᎬᎽ ͲᎻᎬᎡᎬ ᎠႮᎠᎬ!
 Ꮖ ᎪᎷ ᎻᎪᏙᎬ Ꭺ ᏞϴͲՏ ϴҒ ҒᎬᎪͲႮᎡᎬՏ ҒϴᎡ ᏀᎡϴႮᏢ ᎷᎪΝᎪᏀᎬᎷᎬΝͲ
 ───────────────────────
