@@ -189,18 +189,18 @@ def temp_ban(update: Update, context: CallbackContext) -> str:
     except BadRequest as excp:
         if excp.message != "User not found":
             raise
-        message.reply_text("I can't seem to find this user.")
+        message.reply_text("I Cᴀɴ'ᴛ Fɪɴᴅ Tʜᴀᴛ Usᴇʀ'Cʜᴇᴄᴋ🤔.")
         return log_message
     if user_id == bot.id:
-        message.reply_text("I'm not gonna BAN myself, are you crazy?")
+        message.reply_text("I ᴡᴀɴᴛ ᴛᴏ ʙᴀɴ ᴍʏsᴇʟғ?😑")
         return log_message
 
     if is_user_ban_protected(chat, user_id, member):
-        message.reply_text("I don't feel like it.")
+        message.reply_text("I ᴅᴏɴ'ᴛ Fᴇᴇʟ Lɪᴋᴇ ɪᴛ🎐.")
         return log_message
 
     if not reason:
-        message.reply_text("You haven't specified a time to ban this user for!")
+        message.reply_text("ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ sᴘᴇᴄɪғɪᴇᴅ ᴀ ᴛɪᴍᴇ ᴛᴏ ʙᴀɴ ᴛʜɪs ᴜsᴇʀ ғᴏʀ!")
         return log_message
 
     split_reason = reason.split(None, 1)
