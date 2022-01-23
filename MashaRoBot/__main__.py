@@ -60,8 +60,8 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Reply photo photo = https://telegra.ph/file/cbc809a3fa227322dc7af.jpg 
-ᎻᎬᎽ ͲᎻᎬᎡᎬ ᎠႮᎠᎬ!
+https://telegra.ph//file/b413b7e74eaeae3944412.mp4
+ᎻᎬᎽ ͲᎻᎬᎡᎬ ᎠႮᎠE
 Ꮖ ᎪᎷ ᎻᎪᏙᎬ Ꭺ ᏞϴͲՏ ϴҒ ҒᎬᎪͲႮᎡᎬՏ ҒϴᎡ ᏀᎡϴႮᏢ ᎷᎪΝᎪᏀᎬᎷᎬΝͲ
 ───────────────────────
 ✪ Ꮖ ᏴᎬ ᎻᎬᏞᏢ ᎽϴႮ ᎷᎪΝᎪᏀᎬ & ᏢᎡϴͲᎬᏟͲ ᎽϴႮᎡ ᏀᎡϴႮᏢՏ
