@@ -60,7 +60,6 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-<a href=https://telegra.ph//file/b413b7e74eaeae3944412.mp4>[ՏᏆΝᏀᏞᎬ💔]</a>
 ᎻᎬᎽ ͲᎻᎬᎡᎬ ᎠႮᎠE
 Ꮖ ᎪᎷ ᎻᎪᏙᎬ Ꭺ ᏞϴͲՏ ϴҒ ҒᎬᎪͲႮᎡᎬՏ ҒϴᎡ ᏀᎡϴႮᏢ ᎷᎪΝᎪᏀᎬᎷᎬΝͲ
 ───────────────────────
@@ -101,7 +100,7 @@ HELP_STRINGS = """
 × /help: το ѕєє мγ ϲοммαи∂ѕ
 αℓℓ αяє ϲοммαи∂ υѕє∂ ϐє υѕє∂ ωιτн / OR !."""
 
-START_IMG = "https://telegra.ph/file/91d3a167481da71ab5b44.mp4"
+START_IMG = "https://telegra.ph//file/b413b7e74eaeae3944412.mp4"
 MASHA_IMG = "https://telegra.ph/file/7aba4b67279c844454b4c.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
