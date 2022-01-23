@@ -71,7 +71,7 @@ https://telegra.ph//file/b413b7e74eaeae3944412.mp4
 buttons = [
     [
         InlineKeyboardButton(
-            text="+ᎪᎠᎠ ᎷᎬ Ͳϴ ᎽϴႮᎡ ᏀᎡϴႮᏢ+", url="http://t.me/@Single_forever_bot?startgroup=botstart"),
+            text="+ᎪᎠᎠ ᎷᎬ Ͳϴ ᎽϴႮᎡ ᏀᎡϴႮᏢ+", url="http://t.me/@Single_forever_bot?startgroup=True"),
     ],
     [
         InlineKeyboardButton(text="ᏟϴᎷᎷᎪΝᎠՏ❔", callback_data="help_back"),
