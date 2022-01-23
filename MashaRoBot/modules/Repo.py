@@ -10,16 +10,16 @@ REPO_TEXT = "**Thanimai [BOT](https://telegra.ph/file/526ed899597d7827474a1.jpg)
   
 BUTTONS = InlineKeyboardMarkup(
       [[
-        InlineKeyboardButton("ʀᴇᴘᴏꜱɪᴛᴏʀʏ", url=f"https://github.com/proTamizhan/thanimaibot"),
-        InlineKeyboardButton("Gɪᴛʜᴜʙ", url=f"https://github.com/proTamizhan"),
+        InlineKeyboardButton("ʀᴇᴘᴏꜱɪᴛᴏʀʏ", url=f"https://github.com/UNKNOWN8884"),
+        InlineKeyboardButton("Gɪᴛʜᴜʙ", url=f"https://github.com/UNKNOWN8884"),
       ],[
-        InlineKeyboardButton("ᴏᴡɴᴇʀ ❣️", url="https://t.me/TheTelegrampro"),
-        InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/thanimaisupport"),
-       InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/Kittu_the_criminall"),
+        InlineKeyboardButton("ᴏᴡɴᴇʀ ❣️", url="https://t.me/CRACKERON"),
+        InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/Mksupport1"),
+       InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/CRACKERON"),
       ],[
-        InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/THANIMAIBOTS"),
-        InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/ctzfamily"),
-       InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/Sarbudeen786"),
+        InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/Mksupport1"),
+        InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/CRACKERON"),
+       InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/CRACKERON"),
       ]]
     )
   
