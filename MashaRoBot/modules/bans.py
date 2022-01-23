@@ -42,7 +42,7 @@ from MashaRoBot.modules.helper_funcs.string_handling import extract_time
 from MashaRoBot.modules.log_channel import gloggable, loggable
 
 UNBAN_IMG= "https://telegra.ph//file/6d3450d0ad6f915076d53.mp4"
-BAN_IMG= "https://telegra.ph/file/35ae9ea0ae57d53b98c0f.mp4"
+BAN_IMG= "https://telegra.ph//file/1d67d9594b3b607999671.mp4"
 KICK_IMG= "https://telegra.ph//file/6f5c977ae26a0c9461b11.mp4"
 SELF_KICK_IMG= "https://telegra.ph/file/f1d4f976d2e90fa40740c.mp4"
 
@@ -135,8 +135,8 @@ def ban(update: Update, context: CallbackContext) -> str:
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-       InlineKeyboardButton(text="❕Unban", callback_data=f"unbanb_unban={user_id}"),
-       InlineKeyboardButton(text="❌ Delete", callback_data="unbanb_del"),
+       InlineKeyboardButton(text="❕ႮΝᏴᎪΝ?", callback_data=f"unbanb_unban={user_id}"),
+       InlineKeyboardButton(text="❌ᎠᎬᏞᎬͲᎬ", callback_data="unbanb_del"),
                     ]
                 ]
             ),
@@ -242,9 +242,9 @@ def temp_ban(update: Update, context: CallbackContext) -> str:
                 [
                     [
                         InlineKeyboardButton(
-                            text="❕Unban", callback_data=f"unbanb_unban={user_id}"
+                            text="❕ႮΝᏴᎪΝ?", callback_data=f"unbanb_unban={user_id}"
                         ),
-                        InlineKeyboardButton(text="❌ Delete", callback_data="unbanb_del"),
+                        InlineKeyboardButton(text="❌ ᎠᎬᏞᎬͲᎬ", callback_data="unbanb_del"),
                     ]
                 ]
             ),
