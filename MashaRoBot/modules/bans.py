@@ -41,7 +41,7 @@ from MashaRoBot.modules.helper_funcs.extraction import extract_user_and_text
 from MashaRoBot.modules.helper_funcs.string_handling import extract_time
 from MashaRoBot.modules.log_channel import gloggable, loggable
 
-UNBAN_IMG= "https://telegra.ph/file/0ac714f6c537a2570cfd3.mp4"
+UNBAN_IMG= "https://telegra.ph//file/6d3450d0ad6f915076d53.mp4"
 BAN_IMG= "https://telegra.ph/file/35ae9ea0ae57d53b98c0f.mp4"
 KICK_IMG= "https://telegra.ph/file/34462049fc4f176297132.mp4"
 SELF_KICK_IMG= "https://telegra.ph/file/f1d4f976d2e90fa40740c.mp4"
