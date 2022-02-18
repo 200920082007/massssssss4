@@ -59,57 +59,6 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-
-PM_START_TEXT = """
-https://telegra.ph//file/b413b7e74eaeae3944412.mp4
-ᎻᎬᎽ ͲᎻᎬᎡᎬ ᎠႮᎠE
-Ꮖ ᎪᎷ ᎻᎪᏙᎬ Ꭺ ᏞϴͲՏ ϴҒ ҒᎬᎪͲႮᎡᎬՏ ҒϴᎡ ᏀᎡϴႮᏢ ᎷᎪΝᎪᏀᎬᎷᎬΝͲ
-───────────────────────
-✪ Ꮖ ᏴᎬ ᎻᎬᏞᏢ ᎽϴႮ ᎷᎪΝᎪᏀᎬ & ᏢᎡϴͲᎬᏟͲ ᎽϴႮᎡ ᏀᎡϴႮᏢՏ
-➼ Տϴ ՏͲᏆᏞᏞ ᏔᎻᎪͲ ᎪᎡᎬ ᎽϴႮ ᏔᎪᏆͲᏆΝᏀ❓
-───────────────────────"""
-
-buttons = [
-    [
-        InlineKeyboardButton(
-            text="+ᎪᎠᎠ ᎷᎬ Ͳϴ ᎽϴႮᎡ ᏀᎡϴႮᏢ+", url="http://t.me/Single_forever_bot?startgroup=True"),
-    ],
-    [
-        InlineKeyboardButton(text="ᏟϴᎷᎷᎪΝᎠ❔", callback_data="help_back"),
-    ],
-    [
-        InlineKeyboardButton(text="ᎠᎬᏙᎬᏞϴᏢᎬᎡ 🧑‍💻", url="https://t.me/CRACKERON"),
-
-    ],
-    [
-        InlineKeyboardButton(text="ᏴϴͲ ႮᏢᎠᎪͲᎬՏ💖", url="t.me/Mksupport1"),
-    ],
-    [
-        InlineKeyboardButton(text="⚠️ՏϴႮᎡᏟᎬ⚠️🖥️", callback_data="source_"
-        ),
-    ],
-]
-
-
-
-HELP_STRINGS = """
-ᎻᎬᎽ ᎠႮᎠᎬ!
-💥Ꮖ ᎻᎬᏞᏢ Ͳϴ ᎷᎪΝᎪᏀᎬ ᎽϴႮᎡ ᏀᎡϴႮᏢ!
-💥 ᎫႮՏͲ ᎪᎠᎠ ᎽϴႮᎡ ᏀᎡϴႮᏢ
-ᎪՏ ᎪᎠᎷᏆΝ
-💥 ᏟϴᎷᎷᎪΝᎠՏ ᎪᏙᎪᏆᏞᎪᏴᏞᎬ!
-× /start: το αωακє мe
-× /help: το ѕєє мγ ϲοммαи∂ѕ
-αℓℓ αяє ϲοммαи∂ υѕє∂ ϐє υѕє∂ ωιτн / OR !."""
-
-START_IMG = "https://telegra.ph//file/b413b7e74eaeae3944412.mp4"
-MASHA_IMG = "https://telegra.ph/file/7aba4b67279c844454b4c.jpg"
-
-DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](ko-fi.com/sawada) or by contacting @Sawada \
- Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at @OnePunchDev."""
-
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
