@@ -75,7 +75,7 @@ buttons = [
             text="+ᎪᎠᎠ ᎷᎬ Ͳϴ ᎽϴႮᎡ ᏀᎡϴႮᏢ+", url="http://t.me/Single_forever_bot?startgroup=True"),
     ],
     [
-        InlineKeyboardButton(text="ᏟϴᎷᎷᎪΝᎠՏ❔", callback_data="help_back"),
+        InlineKeyboardButton(text="ᏟϴᎷᎷᎪΝᎠ❔", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(text="ᎠᎬᏙᎬᏞϴᏢᎬᎡ 🧑‍💻", url="https://t.me/CRACKERON"),
